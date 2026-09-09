@@ -1,3 +1,48 @@
+/* Self-hosted brand fonts — no third-party request, and the page keeps its
+   typography even where Google Fonts is blocked. Files come from the
+   @fontsource packages pinned in package.json. */
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/playfair-display-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/playfair-display-latin-600-normal.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/playfair-display-latin-700-normal.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/playfair-display-latin-500-italic.woff2") format("woff2");
+  font-weight: 500; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-latin-500-normal.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-latin-600-normal.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat-latin-700-normal.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+
 /* Runways n Poppies — brand styles.
    Palette and fonts are locked per Master Plan v6 (Aug 26, 2026).
    Three-color rule: this site uses Auxiliary Navy + Cream + Poppy Red-Orange.

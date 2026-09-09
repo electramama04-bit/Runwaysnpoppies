@@ -20,13 +20,11 @@
     "run_worker_first": ["/api/*", "/download/*"]
   },
 
-  // ---- Custom domain (uncomment once runwaysnpoppies.com is on Cloudflare) ----
-  // Requires the domain's nameservers to point at Cloudflare. Wrangler creates
-  // the DNS records and the certificate automatically for a custom_domain route.
-  // "routes": [
-  //   { "pattern": "runwaysnpoppies.com", "custom_domain": true },
-  //   { "pattern": "www.runwaysnpoppies.com", "custom_domain": true }
-  // ],
+  // Wrangler creates the DNS records and the TLS certificate for these.
+  "routes": [
+    { "pattern": "runwaysnpoppies.com", "custom_domain": true },
+    { "pattern": "www.runwaysnpoppies.com", "custom_domain": true }
+  ],
 
   "observability": {
     "enabled": true,

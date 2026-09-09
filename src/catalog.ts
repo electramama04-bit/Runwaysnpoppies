@@ -1,5 +1,5 @@
 /**
- * The Runways & Poppies catalog.
+ * The Runways n Poppies catalog.
  *
  * This is the single place to add a document or a link. The site reads it
  * through /api/documents and /api/links, so adding an entry here (plus dropping
@@ -7,7 +7,7 @@
  */
 
 /**
- * School years, labeled by Noah's grade.
+ * School years, labeled by grade.
  * 4th grade ran Sept 8, 2025 - Jul 1, 2026. 5th grade started Sept 8, 2026.
  */
 export type Grade = "4th Grade" | "5th Grade";
@@ -24,9 +24,13 @@ export interface DocEntry {
   /** Filename inside public/files/ */
   file: string;
   format: Format;
-  /** Human-readable size, e.g. "1.2 MB". Shown so nobody is surprised. */
+  /** Human-readable size, shown so nobody is surprised by the click. */
   sizeLabel: string;
+  /** Page count for printables, so people know what they're printing. */
+  pages?: number;
   grade?: Grade;
+  /** Unit or theme this belongs to. */
+  unit?: string;
   /** Washington's 11 required subjects, or any tag that helps someone find it. */
   subjects: string[];
   /** ISO date (YYYY-MM-DD) this file was last revised. */
@@ -42,92 +46,39 @@ export interface LinkEntry {
   category: string;
 }
 
-/**
- * PLACEHOLDER ENTRIES — replace with the real files.
- *
- * Each one below is shaped from the actual curriculum so the page renders and
- * filters correctly on first run. Drop the real file into public/files/, update
- * `file`, `sizeLabel` and `updated`, and it goes live on the next deploy.
- */
 export const DOCUMENTS: DocEntry[] = [
   {
-    id: "hours-log-template",
-    title: "Homeschool Hours Log Template",
+    id: "four-forces-pages",
+    title: "The Four Forces — Flight & Friction, Pages 4–6",
     description:
-      "Monthly hours tracker mapped to Washington's 11 required subjects. Built to satisfy the 1,000-hour requirement without last-minute scrambling.",
-    file: "hours-log-template.xlsx",
-    format: "xlsx",
-    sizeLabel: "— KB",
-    grade: "4th Grade",
-    subjects: ["Recordkeeping", "WA Compliance"],
-    updated: "2026-09-09",
-    featured: true,
-  },
-  {
-    id: "year-planning-guide",
-    title: "52-Week Aviation Year Planning Guide",
-    description:
-      "The full thematic framework — four quarters from Spring Flight through Winter Ascent, with weekly themes and the aviation milestones they hang on.",
-    file: "year-planning-guide.pdf",
+      "Lift, weight, thrust, and drag explained through a kite, a boat, and a monster truck — plus the three big ideas behind the unit and how engineers write results down. Includes the three-trials-one-average method and the two kite safety rules that are not optional.",
+    file: "four-forces-pages.pdf",
     format: "pdf",
-    sizeLabel: "— MB",
-    grade: "4th Grade",
-    subjects: ["Planning", "History", "Science"],
-    updated: "2026-09-09",
-    featured: true,
-  },
-  {
-    id: "paper-airplane-lab",
-    title: "Paper Airplane Engineering Lab",
-    description:
-      "A hands-on Friday lab: fold three designs, measure glide distance, chart the results. Covers lift and drag in a way a nine-year-old can hold in his hands.",
-    file: "paper-airplane-lab.pdf",
-    format: "pdf",
-    sizeLabel: "— KB",
-    grade: "4th Grade",
-    subjects: ["Science", "Occupational Ed", "Math"],
-    updated: "2026-09-09",
-    featured: true,
-  },
-  {
-    id: "bird-flight-journal",
-    title: "Birds & Flight Nature Journal Pages",
-    description:
-      "Printable journal spreads for bird identification and wing-shape sketching. Pairs with eBird and Merlin on nature outings.",
-    file: "bird-flight-journal.pdf",
-    format: "pdf",
-    sizeLabel: "— KB",
-    grade: "4th Grade",
-    subjects: ["Science", "Art Appreciation", "Writing"],
-    updated: "2026-09-09",
-  },
-  {
-    id: "museum-trip-quick-cards",
-    title: "Museum Trip Quick Cards",
-    description:
-      "One card per outing: hours, parking, fees, what the membership covers, and the discussion questions to ask in the car on the way home.",
-    file: "museum-trip-quick-cards.pdf",
-    format: "pdf",
-    sizeLabel: "— MB",
-    grade: "4th Grade",
-    subjects: ["Social Studies", "History"],
-    updated: "2026-09-09",
-  },
-  {
-    id: "homeschool-calendar",
-    title: "Aviation Homeschool Calendar",
-    description:
-      "The full year as an .ics file — import it straight into Google Calendar and every theme week, break, and field trip lands on the right day.",
-    file: "homeschool-calendar.ics",
-    format: "ics",
-    sizeLabel: "— KB",
+    sizeLabel: "180 KB",
+    pages: 3,
     grade: "5th Grade",
-    subjects: ["Planning"],
-    updated: "2026-09-09",
+    unit: "Flight & Friction",
+    subjects: ["Science", "Math", "Reading"],
+    updated: "2026-09-06",
+    featured: true,
+  },
+  {
+    id: "flight-test-report",
+    title: "Flight Test Report — Flight & Friction, Day 10",
+    description:
+      "The final report real test engineers write after every program. Label the four forces, record your best result across three vehicles, check your hypothesis, and sign it. Doubles as a writing sample and a science assessment artifact for the annual review.",
+    file: "flight-test-report.pdf",
+    format: "pdf",
+    sizeLabel: "100 KB",
+    pages: 2,
+    grade: "5th Grade",
+    unit: "Flight & Friction",
+    subjects: ["Science", "Writing", "Math", "Health / PE"],
+    updated: "2026-09-06",
+    featured: true,
   },
 ];
 
-/** PLACEHOLDER — swap in the links actually worth sharing. */
 export const LINKS: LinkEntry[] = [
   {
     title: "The Museum of Flight",
@@ -138,7 +89,8 @@ export const LINKS: LinkEntry[] = [
   {
     title: "Washington State Homeschool Law (RCW 28A.200)",
     url: "https://app.leg.wa.gov/rcw/default.aspx?cite=28A.200",
-    description: "The statute itself — it explicitly protects experiential, less-structured teaching.",
+    description:
+      "The statute itself — it explicitly protects experiential, less-structured teaching.",
     category: "Washington State",
   },
   {

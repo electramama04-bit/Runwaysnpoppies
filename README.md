@@ -10,7 +10,7 @@ Built as a Cloudflare Worker with static assets.
 
 | Path | What it does |
 |------|--------------|
-| `/` | Home page — intro and featured downloads |
+| `/` | Home page — all six sections from the website plan |
 | `/downloads` | The full library, filterable by grade |
 | `/links` | Curated links, grouped by category |
 | `/api/documents` | JSON feed of every document |
@@ -21,6 +21,22 @@ Static pages are served straight from `public/`. The Worker handles the two API
 routes and `/download/*`, which wraps the file with a `Content-Disposition`
 header so browsers save it under a readable name (`Paper_Airplane_Lab.pdf`)
 rather than previewing it or saving the raw filename.
+
+## The six sections
+
+`public/index.html` implements the structure from *Runways n Poppies — Website
+Template + Four Hats Reel*:
+
+1. **Hero** — wordmark, tagline, subtitle, "Watch the story"
+2. **Manifesto** — protected verbatim, Cream on Navy, Gold attribution
+3. **Four Hats** — four columns, 2×2 on tablet, stacked on phones
+4. **Reels** — "Latest Adventures", six slots, social row
+5. **Curriculum** — the Aviation Homeschool Approach plus featured downloads
+6. **Contact / Footer** — email, Tacoma / Post 969, copyright
+
+Four things in the page are marked `TODO` in the HTML and need real values before
+launch: the "Watch the story" link, the six Reel thumbnails, the newsletter signup
+URL, and confirmation that every social handle is claimed.
 
 ## Adding a document
 

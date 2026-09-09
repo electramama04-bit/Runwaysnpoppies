@@ -232,3 +232,188 @@ footer .rule {
   background: var(--poppy);
   margin: 0 0 24px;
 }
+
+/* ============================================================
+   Six-section home page — backgrounds per Master Plan v6 spec
+   ============================================================ */
+
+.s-hero,
+.s-hats,
+.s-curriculum { background: var(--cream); }
+.s-manifesto  { background: var(--navy); }
+.s-reels      { background: var(--sky); }
+.s-footer     { background: var(--navy); }
+
+/* ---------- 1. Hero ---------- */
+
+.s-hero { padding: 64px 0 72px; text-align: center; }
+.wordmark {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin: 0 auto 28px;
+}
+.s-hero .tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.3rem, 3.4vw, 1.9rem);
+  color: var(--navy);
+  margin: 0 0 18px;
+}
+.s-hero .subtitle {
+  font-size: 0.9rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-soft);
+  line-height: 2;
+  margin: 0 0 32px;
+}
+.btn-lg { font-size: 0.95rem; padding: 14px 34px; }
+
+/* ---------- 2. Manifesto ---------- */
+
+.s-manifesto { padding: 76px 0; text-align: center; }
+.s-manifesto blockquote {
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  line-height: 1.6;
+  color: var(--cream);
+  margin: 0 auto 26px;
+  max-width: 62ch;
+}
+.s-manifesto .attribution {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--gold);
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* ---------- 3. Four Hats ---------- */
+
+.s-hats { padding: 68px 0; }
+.s-hats h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3.6vw, 2.2rem);
+  color: var(--navy);
+  text-align: center;
+  margin: 0 0 44px;
+}
+.hats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+@media (max-width: 760px) { .hats { grid-template-columns: repeat(2, 1fr); gap: 26px; } }
+@media (max-width: 420px) { .hats { grid-template-columns: 1fr; } }
+
+.hat { text-align: center; }
+.hat-icon { font-size: 2.1rem; display: block; margin-bottom: 12px; }
+.hat h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--navy);
+  margin: 0 0 10px;
+}
+.hat p { font-size: 0.9rem; color: var(--ink-soft); margin: 0; line-height: 1.6; }
+
+/* ---------- 4. Reels ---------- */
+
+.s-reels { padding: 68px 0; }
+.s-reels h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3.6vw, 2.2rem);
+  color: var(--navy);
+  margin: 0 0 8px;
+}
+.s-reels .section-note { color: #3d5c78; margin-bottom: 30px; }
+
+.reelgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 36px;
+}
+@media (max-width: 620px) { .reelgrid { grid-template-columns: repeat(2, 1fr); } }
+
+.reel {
+  aspect-ratio: 9 / 16;
+  /* Empty placeholder slots are capped so they don't dominate the page.
+     Remove max-height once real thumbnails are dropped in. */
+  max-height: 230px;
+  width: 100%;
+  justify-self: center;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px dashed var(--navy);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--navy);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background 0.15s ease;
+}
+.reel:hover { background: rgba(255, 255, 255, 0.75); color: var(--navy); }
+
+.socials { display: flex; gap: 20px; justify-content: center; }
+.socials a { color: var(--navy); display: inline-flex; transition: color 0.15s ease; }
+.socials a:hover { color: var(--poppy); }
+
+/* ---------- 5. Curriculum ---------- */
+
+.s-curriculum { padding: 72px 0; }
+.s-curriculum h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 3.6vw, 2.2rem);
+  color: var(--navy);
+  margin: 0 0 24px;
+}
+.s-curriculum p { max-width: 66ch; margin: 0 0 18px; }
+.s-curriculum .lede {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--navy);
+}
+.s-curriculum .closing {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  color: var(--poppy);
+  margin-bottom: 46px;
+}
+.s-curriculum strong { color: var(--navy); font-weight: 700; }
+.sub {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin: 0 0 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.more { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.btn-quiet {
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+}
+.btn-quiet:hover { background: var(--navy); color: var(--cream); }
+
+/* ---------- 6. Footer ---------- */
+
+.s-footer { padding: 56px 0 60px; color: var(--cream); }
+.s-footer h2 {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  color: var(--cream);
+  margin: 0 0 14px;
+}
+.s-footer a { color: var(--sky); }
+.s-footer a:hover { color: var(--poppy); }
+.s-footer p { margin: 0 0 8px; }
+.s-footer .copyright { margin-top: 22px; font-size: 0.82rem; color: var(--sky); }

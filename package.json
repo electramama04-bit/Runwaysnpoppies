@@ -1,0 +1,26 @@
+{
+  "name": "runwaysnpoppies",
+  "version": "0.1.0",
+  "description": "Runways & Poppies — free aviation homeschool materials, served from Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "npm run types && tsc --noEmit && wrangler deploy --dry-run",
+    "types": "wrangler types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electramama04-bit/Runwaysnpoppies.git"
+  },
+  "bugs": {
+    "url": "https://github.com/electramama04-bit/Runwaysnpoppies/issues"
+  },
+  "homepage": "https://github.com/electramama04-bit/Runwaysnpoppies#readme",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260908.1",
+    "@types/node": "^22.20.2",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.130.0"
+  },
+  "private": true
+}

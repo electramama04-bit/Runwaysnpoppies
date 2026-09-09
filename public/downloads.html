@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Downloads — Runways &amp; Poppies</title>
+<meta name="description" content="Free printable homeschool documents: planning guides, lab sheets, nature journals, trip cards, and hours logs.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="/">Runways &amp; <span>Poppies</span></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/downloads" aria-current="page">Downloads</a>
+      <a href="/links">Links</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <h1>Downloads</h1>
+    <p>
+      Everything below is free to use, print, copy, and adapt for your own family
+      or co-op. No sign-up, no email, no strings.
+    </p>
+  </div>
+
+  <section>
+    <div class="filters" id="filters" role="group" aria-label="Filter by quarter"></div>
+    <div class="grid" id="library">
+      <p class="status">Loading the library&hellip;</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Runways &amp; Poppies &mdash; Tacoma, Washington.</p>
+  </div>
+</footer>
+
+<script>
+let ALL = [];
+let active = "All";
+
+fetch("/api/documents")
+  .then((r) => r.json())
+  .then(({ documents }) => {
+    ALL = documents;
+    renderFilters();
+    render();
+  })
+  .catch(() => {
+    document.getElementById("library").innerHTML =
+      '<p class="status">Could not load the library. Please refresh.</p>';
+  });
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function renderFilters() {
+  const quarters = [...new Set(ALL.map((d) => d.quarter).filter(Boolean))];
+  const options = ["All", ...quarters, "Any quarter"];
+  document.getElementById("filters").innerHTML = options
+    .map(
+      (q) =>
+        `<button type="button" data-q="${esc(q)}" aria-pressed="${q === active}">${esc(q)}</button>`,
+    )
+    .join("");
+
+  document.getElementById("filters").addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    active = btn.dataset.q;
+    document.querySelectorAll("#filters button").forEach((b) => {
+      b.setAttribute("aria-pressed", String(b.dataset.q === active));
+    });
+    render();
+  });
+}
+
+function matches(doc) {
+  if (active === "All") return true;
+  if (active === "Any quarter") return !doc.quarter;
+  return doc.quarter === active;
+}
+
+function render() {
+  const shown = ALL.filter(matches);
+  const host = document.getElementById("library");
+  if (!shown.length) {
+    host.innerHTML = '<p class="status">Nothing in this section yet.</p>';
+    return;
+  }
+  host.innerHTML = shown.map(cardHtml).join("");
+}
+
+function cardHtml(doc) {
+  const tags = [
+    doc.quarter ? `<span class="tag quarter">${esc(doc.quarter)}</span>` : "",
+    ...doc.subjects.map((s) => `<span class="tag">${esc(s)}</span>`),
+  ].join("");
+
+  return `
+    <article class="card">
+      <h3>${esc(doc.title)}</h3>
+      <p>${esc(doc.description)}</p>
+      <div class="tags">${tags}</div>
+      <p class="meta">${esc(doc.format.toUpperCase())} &middot; ${esc(doc.sizeLabel)} &middot; updated ${esc(doc.updated)}</p>
+      <a class="btn" href="/download/${encodeURIComponent(doc.id)}">Download</a>
+    </article>`;
+}
+</script>
+
+</body>
+</html>

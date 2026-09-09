@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runways &amp; Poppies</title>
+<meta name="description" content="Free aviation-themed homeschool materials from a year of flying, reading, and wandering the Pacific Northwest.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="/">Runways &amp; <span>Poppies</span></a>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/downloads">Downloads</a>
+      <a href="/links">Links</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <h1>A year of flight, made shareable.</h1>
+    <p>
+      This is where we put the things that worked. Everything here came out of a real
+      homeschool year built around aviation &mdash; the planning sheets, the lab pages,
+      the trip cards, the hours log that kept us honest with the state of Washington.
+    </p>
+    <p>
+      It is all free. Download what helps, ignore what doesn't, and change anything
+      you like. None of it needs an account or an email address.
+    </p>
+    <blockquote class="verse">
+      &ldquo;They that wait upon the LORD shall renew their strength; they shall mount up
+      with wings as eagles.&rdquo;
+      <cite>Isaiah 40:31</cite>
+    </blockquote>
+  </div>
+
+  <section>
+    <h2>Start here</h2>
+    <p class="section-note">
+      A few of the most-used files. The full library lives on the
+      <a href="/downloads">downloads page</a>.
+    </p>
+    <div class="grid" id="featured">
+      <p class="status">Loading&hellip;</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>How the year is built</h2>
+    <p class="section-note">
+      Four quarters, each with its own weather and its own reason to look up.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Spring Flight</h3>
+        <p>April through June. Easter, the space program, birds and the mechanics of
+        wings, and the first pioneer pilots.</p>
+      </div>
+      <div class="card">
+        <h3>Summer Sky</h3>
+        <p>July through September. Boeing's anniversary, the Blue Angels over Lake
+        Washington, National Aviation Day, and the fall migration.</p>
+      </div>
+      <div class="card">
+        <h3>Autumn Wings</h3>
+        <p>October through December. Forests and mushrooms, National Aviation History
+        Month, Advent and the stars, and Wright Brothers Day.</p>
+      </div>
+      <div class="card">
+        <h3>Winter Ascent</h3>
+        <p>January through March. Navigation, winter engineering, Lent, and the long
+        build-up to the Lindbergh centennial.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Runways &amp; Poppies &mdash; Tacoma, Washington.</p>
+    <p>Made for anyone teaching a kid to look up.</p>
+  </div>
+</footer>
+
+<script>
+fetch("/api/documents")
+  .then((r) => r.json())
+  .then(({ documents }) => {
+    const featured = documents.filter((d) => d.featured);
+    const host = document.getElementById("featured");
+    if (!featured.length) {
+      host.innerHTML = '<p class="status">Nothing featured yet.</p>';
+      return;
+    }
+    host.innerHTML = featured.map(cardHtml).join("");
+  })
+  .catch(() => {
+    document.getElementById("featured").innerHTML =
+      '<p class="status">Could not load the file list. Please refresh.</p>';
+  });
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function cardHtml(doc) {
+  return `
+    <article class="card">
+      <h3>${esc(doc.title)}</h3>
+      <p>${esc(doc.description)}</p>
+      <p class="meta">${esc(doc.format.toUpperCase())} &middot; ${esc(doc.sizeLabel)}</p>
+      <a class="btn" href="/download/${encodeURIComponent(doc.id)}">Download</a>
+    </article>`;
+}
+</script>
+
+</body>
+</html>

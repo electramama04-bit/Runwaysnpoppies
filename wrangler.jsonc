@@ -1,0 +1,28 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "runwaysnpoppies",
+  "main": "src/index.ts",
+
+  // Set to today's date at scaffold time. Review the compatibility changelog
+  // before advancing this: https://developers.cloudflare.com/workers/configuration/compatibility-dates/
+  "compatibility_date": "2026-09-09",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    // "/downloads" serves public/downloads.html — no .html in the URL.
+    "html_handling": "auto-trailing-slash",
+    // Unmatched paths render public/404.html instead of a bare error.
+    "not_found_handling": "404-page",
+    // These prefixes hit the Worker even though /files/* are real assets:
+    // the Worker adds Content-Disposition so browsers download instead of preview.
+    "run_worker_first": ["/api/*", "/download/*"]
+  },
+
+  "observability": {
+    "enabled": true,
+    "logs": { "enabled": true, "head_sampling_rate": 1 },
+    "traces": { "enabled": true, "head_sampling_rate": 0.01 }
+  }
+}

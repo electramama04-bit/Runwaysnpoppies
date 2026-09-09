@@ -1,125 +1,130 @@
-/* Runways & Poppies — shared styles.
-   Palette: runway asphalt + sky, with poppy red as the single accent. */
+/* Runways n Poppies — brand styles.
+   Palette and fonts are locked per Master Plan v6 (Aug 26, 2026).
+   Three-color rule: this site uses Auxiliary Navy + Cream + Poppy Red-Orange.
+   Gold is reserved for chaplain/sacred content and is not used here. */
 
 :root {
-  --ink: #1c2430;
-  --ink-soft: #55637a;
-  --paper: #fbf8f3;
-  --card: #ffffff;
-  --line: #e3ddd2;
-  --poppy: #c8452f;
-  --poppy-deep: #9c3120;
-  --sky: #2f6d94;
-  --sky-soft: #eaf2f7;
-  --radius: 12px;
-  --shadow: 0 1px 2px rgba(28, 36, 48, 0.06), 0 8px 24px rgba(28, 36, 48, 0.06);
-  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
+  /* Locked brand palette */
+  --navy: #2c4a6b;        /* Auxiliary Navy — primary */
+  --poppy: #d94e2a;       /* Poppy Red-Orange — accent only, CTAs */
+  --sky: #a8c4de;         /* Sky Blue */
+  --gold: #c9a961;        /* Gold — sacred moments only */
+  --green: #8fa57e;       /* Field Green */
+  --cream: #f1e9d8;       /* Cream / Bone */
+  --wood: #6b4a2e;        /* Warm Wood Brown */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink: #eef1f5;
-    --ink-soft: #a8b4c5;
-    --paper: #151a21;
-    --card: #1d242d;
-    --line: #2e3742;
-    --poppy: #f0745c;
-    --poppy-deep: #f8a08c;
-    --sky: #7db6d8;
-    --sky-soft: #1f2a34;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.3);
-  }
+  /* Roles */
+  --bg: var(--cream);
+  --ink: var(--navy);
+  --ink-soft: #5a6f88;
+  --card: #fbf6ec;
+  --line: #ddd2ba;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(44, 74, 107, 0.07), 0 10px 28px rgba(44, 74, 107, 0.08);
+
+  --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --sans: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.68;
   -webkit-font-smoothing: antialiased;
 }
 
-.wrap { max-width: 940px; margin: 0 auto; padding: 0 20px; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 22px; }
 
-a { color: var(--sky); }
+a { color: var(--navy); }
 a:hover { color: var(--poppy); }
 
 /* ---------- Header ---------- */
 
-.masthead {
-  border-bottom: 1px solid var(--line);
-  background: var(--card);
-}
+.masthead { background: var(--navy); }
 
 .masthead .wrap {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 28px;
+  gap: 10px 28px;
   align-items: baseline;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 20px 22px;
 }
 
 .brand {
   font-family: var(--serif);
   font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--ink);
+  font-weight: 700;
+  color: var(--cream);
   text-decoration: none;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.01em;
 }
-.brand span { color: var(--poppy); }
+.brand:hover { color: var(--cream); }
 
-nav { margin-left: auto; display: flex; gap: 22px; }
+nav { margin-left: auto; display: flex; gap: 24px; }
 nav a {
   text-decoration: none;
-  font-size: 0.95rem;
-  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--sky);
 }
-nav a:hover, nav a[aria-current="page"] { color: var(--poppy); }
+nav a:hover, nav a[aria-current="page"] { color: var(--cream); }
 
 /* ---------- Hero ---------- */
 
-.hero { padding: 56px 0 40px; }
+.hero { padding: 60px 0 44px; }
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 1.15;
-  margin: 0 0 16px;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-size: clamp(2rem, 5.2vw, 3.1rem);
+  line-height: 1.14;
+  margin: 0 0 8px;
+  color: var(--navy);
 }
-.hero p {
-  font-size: 1.12rem;
-  color: var(--ink-soft);
-  max-width: 60ch;
-  margin: 0 0 14px;
-}
-.verse {
-  margin: 28px 0 0;
-  padding-left: 18px;
-  border-left: 3px solid var(--poppy);
+.tagline {
   font-family: var(--serif);
   font-style: italic;
-  color: var(--ink-soft);
-  max-width: 52ch;
+  font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+  color: var(--poppy);
+  margin: 0 0 20px;
 }
-.verse cite { display: block; font-style: normal; font-size: 0.85rem; margin-top: 6px; }
+.subtitle {
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 26px;
+  font-weight: 600;
+}
+.hero p { font-size: 1.08rem; max-width: 62ch; margin: 0 0 16px; }
 
 /* ---------- Sections ---------- */
 
-section { padding: 40px 0; border-top: 1px solid var(--line); }
+section { padding: 44px 0; border-top: 1px solid var(--line); }
 section h2 {
   font-family: var(--serif);
-  font-size: 1.6rem;
-  margin: 0 0 6px;
-  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin: 0 0 8px;
+  color: var(--navy);
 }
-.section-note { color: var(--ink-soft); margin: 0 0 26px; max-width: 62ch; }
+.section-note { color: var(--ink-soft); margin: 0 0 28px; max-width: 64ch; }
+
+/* Navy band for the curriculum statement */
+.band {
+  background: var(--navy);
+  color: var(--cream);
+  border: 0;
+  margin-top: 44px;
+}
+.band h2 { color: var(--cream); }
+.band p { max-width: 64ch; }
+.band strong { color: var(--sky); font-weight: 600; }
 
 /* ---------- Cards ---------- */
 
@@ -133,7 +138,7 @@ section h2 {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 20px;
+  padding: 22px;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
@@ -141,86 +146,89 @@ section h2 {
 
 .card h3 {
   font-family: var(--serif);
-  font-size: 1.15rem;
-  margin: 0 0 8px;
+  font-weight: 700;
+  font-size: 1.18rem;
+  margin: 0 0 10px;
   line-height: 1.3;
+  color: var(--navy);
 }
-.card p { margin: 0 0 16px; color: var(--ink-soft); font-size: 0.95rem; flex: 1; }
+.card p { margin: 0 0 16px; color: var(--ink-soft); font-size: 0.94rem; flex: 1; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; }
 .tag {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 3px 9px;
-  border-radius: 999px;
-  background: var(--sky-soft);
-  color: var(--sky);
-  font-weight: 600;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 3px;
+  background: var(--sky);
+  color: var(--navy);
 }
-.tag.quarter { background: color-mix(in srgb, var(--poppy) 12%, transparent); color: var(--poppy-deep); }
+.tag.grade { background: var(--navy); color: var(--cream); }
 
 .meta {
-  font-size: 0.8rem;
+  font-size: 0.79rem;
   color: var(--ink-soft);
-  margin: 0 0 14px;
+  margin: 0 0 16px;
   font-variant-numeric: tabular-nums;
 }
 
 .btn {
   display: inline-block;
   background: var(--poppy);
-  color: #fff;
+  color: var(--cream);
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.92rem;
-  padding: 10px 18px;
-  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  letter-spacing: 0.03em;
+  padding: 11px 20px;
+  border-radius: 4px;
   text-align: center;
   transition: background 0.15s ease;
 }
-.btn:hover { background: var(--poppy-deep); color: #fff; }
+.btn:hover { background: #b83f20; color: var(--cream); }
 
 /* ---------- Filters ---------- */
 
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 26px; }
 .filters button {
   font: inherit;
-  font-size: 0.88rem;
-  padding: 7px 15px;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: var(--card);
-  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 0.86rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid var(--navy);
+  background: transparent;
+  color: var(--navy);
   cursor: pointer;
   transition: all 0.15s ease;
 }
-.filters button:hover { border-color: var(--poppy); color: var(--poppy); }
-.filters button[aria-pressed="true"] {
-  background: var(--poppy);
-  border-color: var(--poppy);
-  color: #fff;
-}
+.filters button:hover { background: var(--sky); }
+.filters button[aria-pressed="true"] { background: var(--navy); color: var(--cream); }
 
 /* ---------- Links list ---------- */
 
-.linklist { list-style: none; padding: 0; margin: 0; }
+.linklist { list-style: none; padding: 0; margin: 0 0 8px; }
 .linklist li { padding: 16px 0; border-bottom: 1px solid var(--line); }
 .linklist a { font-weight: 600; text-decoration: none; }
 .linklist a:hover { text-decoration: underline; }
-.linklist p { margin: 4px 0 0; color: var(--ink-soft); font-size: 0.93rem; }
-
-/* ---------- States ---------- */
+.linklist p { margin: 4px 0 0; color: var(--ink-soft); font-size: 0.92rem; }
 
 .status { color: var(--ink-soft); font-style: italic; padding: 20px 0; }
 
 /* ---------- Footer ---------- */
 
 footer {
-  border-top: 1px solid var(--line);
-  margin-top: 40px;
-  padding: 28px 0 44px;
-  color: var(--ink-soft);
+  background: var(--navy);
+  color: var(--cream);
+  margin-top: 52px;
+  padding: 32px 0 40px;
   font-size: 0.88rem;
 }
 footer p { margin: 0 0 6px; }
+footer .rule {
+  height: 3px;
+  background: var(--poppy);
+  margin: 0 0 24px;
+}

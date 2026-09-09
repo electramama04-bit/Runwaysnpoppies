@@ -1,4 +1,4 @@
-# Runways & Poppies
+# Runways n Poppies
 
 A small website for sharing free homeschool materials — planning guides, lab
 sheets, nature journal pages, trip cards, and the hours log — from an
@@ -11,7 +11,7 @@ Built as a Cloudflare Worker with static assets.
 | Path | What it does |
 |------|--------------|
 | `/` | Home page — intro and featured downloads |
-| `/downloads` | The full library, filterable by curriculum quarter |
+| `/downloads` | The full library, filterable by grade |
 | `/links` | Curated links, grouped by category |
 | `/api/documents` | JSON feed of every document |
 | `/api/links` | JSON feed of every link |
@@ -49,6 +49,17 @@ npm run deploy   # publish to Cloudflare
 ```
 
 Before the first deploy you'll need to authenticate: `npx wrangler login`.
+
+## Branding
+
+Colors and fonts follow the locked brand kit in *Runways n Poppies Master Plan v6*:
+Auxiliary Navy `#2C4A6B`, Poppy Red-Orange `#D94E2A`, Sky Blue `#A8C4DE`,
+Gold `#C9A961`, Field Green `#8FA57E`, Cream `#F1E9D8`, Warm Wood Brown `#6B4A2E`,
+with Playfair Display for headlines and Montserrat for body.
+
+Per the three-color rule this site uses **Navy + Cream + Poppy** only. Gold is
+reserved for chaplain content and is defined in `styles.css` but unused here.
+The name is always written "Runways n Poppies" with spaces.
 
 ## Notes on the setup
 

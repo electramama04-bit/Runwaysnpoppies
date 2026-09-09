@@ -6,8 +6,11 @@
  * the file into public/files/) is all it takes to publish something new.
  */
 
-/** Curriculum quarters for the aviation homeschool year. */
-export type Quarter = "Spring Flight" | "Summer Sky" | "Autumn Wings" | "Winter Ascent";
+/**
+ * School years, labeled by Noah's grade.
+ * 4th grade ran Sept 8, 2025 - Jul 1, 2026. 5th grade started Sept 8, 2026.
+ */
+export type Grade = "4th Grade" | "5th Grade";
 
 /** File formats the download route knows how to label. */
 export type Format = "pdf" | "docx" | "xlsx" | "ics" | "png" | "zip";
@@ -23,7 +26,7 @@ export interface DocEntry {
   format: Format;
   /** Human-readable size, e.g. "1.2 MB". Shown so nobody is surprised. */
   sizeLabel: string;
-  quarter?: Quarter;
+  grade?: Grade;
   /** Washington's 11 required subjects, or any tag that helps someone find it. */
   subjects: string[];
   /** ISO date (YYYY-MM-DD) this file was last revised. */
@@ -55,6 +58,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "hours-log-template.xlsx",
     format: "xlsx",
     sizeLabel: "— KB",
+    grade: "4th Grade",
     subjects: ["Recordkeeping", "WA Compliance"],
     updated: "2026-09-09",
     featured: true,
@@ -67,6 +71,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "year-planning-guide.pdf",
     format: "pdf",
     sizeLabel: "— MB",
+    grade: "4th Grade",
     subjects: ["Planning", "History", "Science"],
     updated: "2026-09-09",
     featured: true,
@@ -79,7 +84,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "paper-airplane-lab.pdf",
     format: "pdf",
     sizeLabel: "— KB",
-    quarter: "Spring Flight",
+    grade: "4th Grade",
     subjects: ["Science", "Occupational Ed", "Math"],
     updated: "2026-09-09",
     featured: true,
@@ -92,7 +97,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "bird-flight-journal.pdf",
     format: "pdf",
     sizeLabel: "— KB",
-    quarter: "Spring Flight",
+    grade: "4th Grade",
     subjects: ["Science", "Art Appreciation", "Writing"],
     updated: "2026-09-09",
   },
@@ -104,7 +109,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "museum-trip-quick-cards.pdf",
     format: "pdf",
     sizeLabel: "— MB",
-    quarter: "Summer Sky",
+    grade: "4th Grade",
     subjects: ["Social Studies", "History"],
     updated: "2026-09-09",
   },
@@ -116,6 +121,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "homeschool-calendar.ics",
     format: "ics",
     sizeLabel: "— KB",
+    grade: "5th Grade",
     subjects: ["Planning"],
     updated: "2026-09-09",
   },

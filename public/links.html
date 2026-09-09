@@ -3,15 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Links — Runways &amp; Poppies</title>
-<meta name="description" content="Museums, state resources, podcasts, and tools worth keeping for an aviation homeschool year.">
+<title>Links &mdash; Runways n Poppies</title>
+<meta name="description" content="Museums, state resources, and podcasts worth keeping for an aviation homeschool year.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
 <header class="masthead">
   <div class="wrap">
-    <a class="brand" href="/">Runways &amp; <span>Poppies</span></a>
+    <a class="brand" href="/">Runways n Poppies</a>
     <nav>
       <a href="/">Home</a>
       <a href="/downloads">Downloads</a>
@@ -24,10 +27,7 @@
 
   <div class="hero">
     <h1>Links worth keeping</h1>
-    <p>
-      Places we actually went, laws we actually read, and things we actually
-      listened to in the car.
-    </p>
+    <p class="tagline">Places we went. Things we actually used.</p>
   </div>
 
   <section id="links">
@@ -38,50 +38,14 @@
 
 <footer>
   <div class="wrap">
-    <p>Runways &amp; Poppies &mdash; Tacoma, Washington.</p>
+    <div class="rule"></div>
+    <p>Runways n Poppies &mdash; Tacoma, WA &middot; VFW Post 969</p>
+    <p>&copy; 2026 Runways n Poppies &middot; All rights reserved</p>
   </div>
 </footer>
 
-<script>
-fetch("/api/links")
-  .then((r) => r.json())
-  .then(({ links }) => {
-    const host = document.getElementById("links");
-    if (!links.length) {
-      host.innerHTML = '<p class="status">No links yet.</p>';
-      return;
-    }
-    const groups = {};
-    for (const link of links) (groups[link.category] ||= []).push(link);
-
-    host.innerHTML = Object.entries(groups)
-      .map(
-        ([category, items]) => `
-          <h2>${esc(category)}</h2>
-          <ul class="linklist">
-            ${items.map(itemHtml).join("")}
-          </ul>`,
-      )
-      .join("");
-  })
-  .catch(() => {
-    document.getElementById("links").innerHTML =
-      '<p class="status">Could not load the links. Please refresh.</p>';
-  });
-
-function esc(s) {
-  return String(s).replace(/[&<>"']/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
-
-function itemHtml(link) {
-  return `
-    <li>
-      <a href="${esc(link.url)}" rel="noopener noreferrer" target="_blank">${esc(link.title)}</a>
-      <p>${esc(link.description)}</p>
-    </li>`;
-}
-</script>
+<script src="/app.js"></script>
+<script>renderLinks();</script>
 
 </body>
 </html>

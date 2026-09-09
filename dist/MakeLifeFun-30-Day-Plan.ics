@@ -1,0 +1,389 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MakeLifeFun//30-Day Plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:#MakeLifeFun — 30-Day Plan
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:mlf-1-20260910@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260910T170000
+DTEND;TZID=America/Los_Angeles:20260910T173000
+SUMMARY:POST: Satsop POV Reel
+DESCRIPTION:Week 1 — Warm · Wild Places\nReel\, 20 sec\nUse: Script 1\n
+ 
+ \nHook: POV: Saturday school is a nuclear cooling tower most people ha
+ ve 
+ never heard of.\n\nText overlay on the hook line is mandatory — 8
+ 5% wat
+ ch on mute.\nReply bank open BEFORE you post. Answer once\, neve
+ r twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Satsop POV Reel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-2-20260912@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260912T170000
+DTEND;TZID=America/Los_Angeles:20260912T173000
+SUMMARY:POST: RC boat vs. the ocean
+DESCRIPTION:Week 1 — Warm · Small Wonders\nReel\, 15 sec\nUse: Script 2
+ 
+ \n\nHook: The ocean beat our RC boat in 4 seconds. Best physics lesson
+  we
+ 've had all year.\n\nText overlay on the hook line is mandatory —
+  85% w
+ atch on mute.\nReply bank open BEFORE you post. Answer once\, ne
+ ver twice
+ .
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: RC boat vs. the ocean
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-3-20260913@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260913T170000
+DTEND;TZID=America/Los_Angeles:20260913T173000
+SUMMARY:POST: Ocean Shores day recap
+DESCRIPTION:Week 1 — Warm · Wild Places\nFacebook\, ~3 min\nUse: Captio
+ 
+ n A\n\nHook: Our classroom on Saturday was a beach.\n\nText overlay on
+  th
+ e hook line is mandatory — 85% watch on mute.\nReply bank open BE
+ FORE y
+ ou post. Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Ocean Shores day recap
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-4-20260916@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260916T170000
+DTEND;TZID=America/Los_Angeles:20260916T173000
+SUMMARY:POST: THE ORIGIN REEL — Blue Tape
+DESCRIPTION:Week 2 — Blue Tape · Origin\nReel\, 60 sec\, face + text\nU
+ 
+ se: Script 3 / 3-ALT\n\nHook: My son's teacher put blue tape around hi
+ s d
+ esk before he ever walked in the door.\n\nText overlay on the hook 
+ line i
+ s mandatory — 85% watch on mute.\nReply bank open BEFORE you p
+ ost. Answ
+ er once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: THE ORIGIN REEL — Blue Tape
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-5-20260916@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260916T170000
+DTEND;TZID=America/Los_Angeles:20260916T173000
+SUMMARY:POST: Blue Tape long-form — PIN THIS
+DESCRIPTION:Week 2 — Blue Tape · Origin\nFacebook\, 4-5 min\nUse: Capti
+ 
+ on B\n\nHook: They put blue tape around my son. So I built him a runwa
+ y i
+ nstead.\n\nText overlay on the hook line is mandatory — 85% watch
+  on mu
+ te.\nReply bank open BEFORE you post. Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Blue Tape long-form — PIN THIS
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-6-20260918@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260918T170000
+DTEND;TZID=America/Los_Angeles:20260918T173000
+SUMMARY:POST: The box and the runway
+DESCRIPTION:Week 2 — Blue Tape · Origin\nReel\, 15 sec\nUse: Script 4\n
+ 
+ \nHook: Same kid. One year apart.\n\nText overlay on the hook line is 
+ man
+ datory — 85% watch on mute.\nReply bank open BEFORE you post. Ans
+ wer on
+ ce\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: The box and the runway
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-7-20260920@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260920T170000
+DTEND;TZID=America/Los_Angeles:20260920T173000
+SUMMARY:POST: Pizza dough physics (cool-down)
+DESCRIPTION:Week 2 — Blue Tape · Small Wonders\nFacebook\, ~2 min\nUse:
+ 
+  Caption C\n\nHook: The pizza dough started flying and the science les
+ son
+  started itself.\n\nText overlay on the hook line is mandatory — 
+ 85% wa
+ tch on mute.\nReply bank open BEFORE you post. Answer once\, nev
+ er twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Pizza dough physics (cool-down)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-8-20260923@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260923T170000
+DTEND;TZID=America/Los_Angeles:20260923T173000
+SUMMARY:POST: THE CULTURAL REEL — Finger-Guns
+DESCRIPTION:Week 3 — Finger-Guns · Cultural\nReel\, 60 sec\, face + tex
+ 
+ t\nUse: Script 5 / 5-ALT\n\nHook: They brought a terrorism screener in
+ to 
+ a meeting about my 9-year-old.\n\nText overlay on the hook line is 
+ mandat
+ ory — 85% watch on mute.\nReply bank open BEFORE you post. Ans
+ wer once\
+ , never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: THE CULTURAL REEL — Finger-Guns
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-9-20260923@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260923T170000
+DTEND;TZID=America/Los_Angeles:20260923T173000
+SUMMARY:POST: Kids used to be able to play like boys
+DESCRIPTION:Week 3 — Finger-Guns · Cultural\nFacebook\, 4-5 min\nUse: C
+ 
+ aption D\n\nHook: When did play become a threat?\n\nText overlay on th
+ e h
+ ook line is mandatory — 85% watch on mute.\nReply bank open BEFOR
+ E you 
+ post. Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Kids used to be able to play like boys
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-10-20260925@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260925T170000
+DTEND;TZID=America/Los_Angeles:20260925T173000
+SUMMARY:POST: Stop treating imagination like a threat
+DESCRIPTION:Week 3 — Finger-Guns · Cultural\nReel\, 15 sec\nUse: Script
+ 
+  6\n\nHook: Stop treating imagination like a threat.\n\nText overlay o
+ n t
+ he hook line is mandatory — 85% watch on mute.\nReply bank open B
+ EFORE 
+ you post. Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Stop treating imagination like a threat
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-11-20260927@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260927T170000
+DTEND;TZID=America/Los_Angeles:20260927T173000
+SUMMARY:POST: Satsop long-form (cool-down)
+DESCRIPTION:Week 3 — Finger-Guns · Wild Places\nFacebook\, ~3 min\nUse:
+ 
+  Caption E\n\nHook: Two 481-foot towers 90 minutes from Tacoma that ne
+ ver
+  cooled anything.\n\nText overlay on the hook line is mandatory —
+  85% w
+ atch on mute.\nReply bank open BEFORE you post. Answer once\, ne
+ ver twice
+ .
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: Satsop long-form (cool-down)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-12-20260930@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260930T170000
+DTEND;TZID=America/Los_Angeles:20260930T173000
+SUMMARY:POST: He distracted a Boeing engineer
+DESCRIPTION:Week 4 — Deliver · Runways & Wings\nReel\, 20 sec\nUse: Scr
+ 
+ ipt 7\n\nHook: He was labeled a distraction. Today he distracted a Boe
+ ing
+  engineer with a good question.\n\nText overlay on the hook line is
+  manda
+ tory — 85% watch on mute.\nReply bank open BEFORE you post. An
+ swer once
+ \, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: He distracted a Boeing engineer
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-13-20261002@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20261002T170000
+DTEND;TZID=America/Los_Angeles:20261002T173000
+SUMMARY:POST: 3 things his old school took away
+DESCRIPTION:Week 4 — Deliver · Origin\nReel\, 30 sec\nUse: Script 8\n\n
+ 
+ Hook: 3 things his old school took away that homeschool gave back in a
+  we
+ ek.\n\nText overlay on the hook line is mandatory — 85% watch on 
+ mute.\
+ nReply bank open BEFORE you post. Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: 3 things his old school took away
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-14-20261004@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20261004T170000
+DTEND;TZID=America/Los_Angeles:20261004T173000
+SUMMARY:POST: One month of #MakeLifeFun
+DESCRIPTION:Week 4 — Deliver · Recap\nFacebook\, ~3 min\nUse: Caption F
+ 
+ \n\nHook: Where should we take school next?\n\nText overlay on the hoo
+ k l
+ ine is mandatory — 85% watch on mute.\nReply bank open BEFORE you
+  post.
+  Answer once\, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: One month of #MakeLifeFun
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-15-20261005@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20261005T170000
+DTEND;TZID=America/Los_Angeles:20261005T173000
+SUMMARY:POST: The chocolate story
+DESCRIPTION:Bonus (optional) · Small Wonders\nReel\, 20 sec\nUse: Script 
+ 
+ 9\n\nHook: I told his school no chocolate. They gave him chocolate. Th
+ en 
+ punished him for having energy.\n\nText overlay on the hook line is
+  manda
+ tory — 85% watch on mute.\nReply bank open BEFORE you post. An
+ swer once
+ \, never twice.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:POST: The chocolate story
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-16-20260915@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260915T180000
+DTEND;TZID=America/Los_Angeles:20260915T193000
+SUMMARY:FILM: Blue Tape reel (both versions)
+DESCRIPTION:Film tonight so you have a full night before it posts. One hon
+ 
+ est tear\, once\, at 0:22 — then hard cut to Noah. Film Script 3 fir
+ st\
+ ; if it doesn't feel right in the morning\, post 3-ALT. Show Noah b
+ oth. H
+ e gets a veto.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:FILM: Blue Tape reel (both versions)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-17-20260922@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260922T180000
+DTEND;TZID=America/Los_Angeles:20260922T193000
+SUMMARY:FILM: Finger-Guns / Ohio reel (both versions)
+DESCRIPTION:Calm\, not angry. Read Caption D out loud first — if any sen
+ 
+ tence sounds like a fight\, cut it. Verify the exact job title on the 
+ sch
+ ool's paperwork before you say it. Have Reply 4 open before you pos
+ t.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:FILM: Finger-Guns / Ohio reel (both versions)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-18-20260915@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260915T193000
+DTEND;TZID=America/Los_Angeles:20260915T195000
+SUMMARY:Show Noah both Blue Tape versions
+DESCRIPTION:He gets a veto. No reason required from him\, no negotiating f
+ 
+ rom you.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Show Noah both Blue Tape versions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mlf-19-20260922@makelifefun.local
+DTSTAMP:20260909T181630Z
+DTSTART;TZID=America/Los_Angeles:20260922T193000
+DTEND;TZID=America/Los_Angeles:20260922T195000
+SUMMARY:Show Noah both Finger-Guns versions
+DESCRIPTION:He gets a veto. His face appears in the redemption half only.
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Show Noah both Finger-Guns versions
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -7,7 +7,7 @@
     "deploy": "wrangler deploy",
     "check": "npm run types && tsc --noEmit && wrangler deploy --dry-run",
     "types": "wrangler types",
-    "skills": "mkdir -p dist && rm -f dist/*.zip && for d in skills/*/; do [ -f \"$d/SKILL.md\" ] && (cd skills && zip -qr \"../dist/$(basename \"$d\").zip\" \"$(basename \"$d\")\"); done && ls -la dist"
+    "skills": "mkdir -p dist && rm -f dist/*.zip && find skills -name SKILL.md -printf \"%h\\n\" | while read -r d; do (cd \"$(dirname \"$d\")\" && zip -qr \"$OLDPWD/dist/$(basename \"$d\").zip\" \"$(basename \"$d\")\"); done && ls -la dist"
   },
   "repository": {
     "type": "git",

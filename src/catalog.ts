@@ -48,6 +48,20 @@ export interface LinkEntry {
 
 export const DOCUMENTS: DocEntry[] = [
   {
+    id: "hours-log-template",
+    title: "Homeschool Hours Log 2026-2027 Template",
+    description:
+      "A year-long hours tracker for a Washington homeschool. Type each day into the Daily Log and the rest adds itself up: hours and days per month, hours in each of the 11 required subjects, and how much of the year happened away from a desk. Tracks both the 1,000-hour and the 180-day path so you can use whichever you reach first.",
+    file: "hours-log-template.xlsx",
+    format: "xlsx",
+    sizeLabel: "31 KB",
+    grade: "5th Grade",
+    unit: "Compliance",
+    subjects: ["Occupational Education", "Compliance", "Printable"],
+    updated: "2026-09-11",
+    featured: true,
+  },
+  {
     id: "four-forces-pages",
     title: "The Four Forces — Flight & Friction, Pages 4–6",
     description:

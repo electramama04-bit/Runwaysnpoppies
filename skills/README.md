@@ -10,7 +10,7 @@ prefix plus a one-word suffix, companions named in every description.
 | `rnp-content-calendar` | The Sunday planning session and the weekly rotation. | Built |
 | `rnp-website-publishing` | Adding a document or link to runwaysnpoppies.com. | Built |
 
-Pending edits to existing skills:
+Edits to existing skills — done, packaged in `_library-updates/`:
 
 - **mama-brand-kit** — add a Runways n Poppies standing brand block. It currently holds
   VFW Auxiliary 969 and the archived FBU event, nothing for this brand. The locked palette

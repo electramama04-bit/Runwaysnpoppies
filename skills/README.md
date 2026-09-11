@@ -7,7 +7,7 @@ prefix plus a one-word suffix, companions named in every description.
 |-------|-------------|--------|
 | `rnp-reel-hooks` | The first two seconds of a video. Formulas, swipe file, the don'ts. | Built |
 | `rnp-film-day` | What to capture on a field trip so the Reel exists. | Built |
-| `rnp-content-calendar` | The Sunday planning session and the weekly rotation. | Proposed |
+| `rnp-content-calendar` | The Sunday planning session and the weekly rotation. | Built |
 | `rnp-website-publishing` | Adding a document or link to runwaysnpoppies.com. | Proposed |
 
 Pending edits to existing skills:

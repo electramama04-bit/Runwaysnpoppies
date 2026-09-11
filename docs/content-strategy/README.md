@@ -1,6 +1,6 @@
 # Runways n Poppies — Content Strategy
 
-Source research: *Make Life Fun — Viral Hook Playbook*, dated August 25, 2026. The
+Source research: the *Viral Hook Playbook*, dated August 25, 2026. The
 original arrived as a single file named `.docx` that was really Markdown. It has been
 split here into the four pieces that get used at different moments, plus the
 corrections it needs before anything gets filmed.
@@ -29,7 +29,7 @@ any hook gets spoken on camera.
 | "my daughter," "let her be the star" | Ethan is 14, Noah is 9. Two sons, no daughter. | Hooks 11, 26, 28, 37; the kid-fronted action item |
 | "my 10-year-old" | Noah is 9 through the 2026-2027 school year | Hooks 20, 33 |
 | "15 years at Boeing" | Confirm actual tenure before saying it on camera | Hook 22 |
-| "#MakeLifeFun channel" | Confirm whether #MakeLifeFun is the Runways n Poppies hashtag or a separate channel | Every caption's hashtag field |
+| The pre-launch working name | Retired. The brand is Runways n Poppies. Removed everywhere, including from the archived original | Hook 38, rewritten. Every caption's hashtag field |
 
 A hook that names a kid who does not exist is the kind of thing a viewer notices once
 and never trusts again. These are not nitpicks.

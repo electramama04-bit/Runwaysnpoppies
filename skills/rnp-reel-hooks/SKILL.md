@@ -31,6 +31,7 @@ Save the beautiful footage for seconds 3 to 15, after the viewer has already com
 | Ages | Noah is 9 through the 2026-2027 school year. Do not write "my 10-year-old." |
 | Boeing tenure | **Unconfirmed.** Ask before any hook says "[N] years at Boeing." |
 | Brand name | Always "Runways n Poppies" with spaces. Never RnP on camera. |
+| Retired name | There was an earlier pre-launch working name. It is retired. Never use it, in a hook, a caption, or a hashtag. |
 
 Source research for this skill used "daughter" and "my 10-year-old" throughout. Those were
 wrong. A hook that names a kid who does not exist is the kind of thing a viewer notices

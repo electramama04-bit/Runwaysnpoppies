@@ -80,7 +80,7 @@ You have Ethan (14) and Noah (9). Every hook below uses real names.
 | 35 | "Every parent asks me how we afford all these field trips. I never have to, because they're free." | 3 + 6 | The membership math. Flight Leader, ASTC, NARM, Discovery Pass |
 | 36 | "I brought my kids to work at Boeing today. What they noticed floored me." | 8 Cold open | Boeing policy on filming. Check before you shoot |
 | 37 | "The 4 words Ethan said after his first small-plane ride will stay with me forever." | 4 Tease | A first small-plane ride, and the four real words |
-| 38 | "This is why we call it Make Life Fun and not Make School Serious." | 3 Bold claim | Confirm the #MakeLifeFun and Runways n Poppies relationship first |
+| 38 | "There's no school in our name. That was on purpose." | 3 Bold claim | Nothing. Ready to film |
 | 39 | "If you're a working parent who thinks you can't homeschool your kids on the weekends, read this." | 5 Direct address | Strongest recruiting hook in the file. Save for a real post |
 | 40 | "The world is our classroom. Here's what week 1 looked like." | Kickoff | Best hook for launching the series. Use it once |
 

@@ -1,9 +1,9 @@
-# Make Life Fun — Viral Hook Playbook
+# Viral Hook Playbook — source research
 
 **Purpose:** Steal viral hook formulas from the top adventure and family-travel creators (who make it fun, not lesson-heavy) and remix them for your aviation homeschool adventures on Facebook and Reels.
 
 **Date:** August 25, 2026
-**Prepared for:** Shirley — #MakeLifeFun channel, adventuring around the Pacific Northwest with the world as a classroom
+**Prepared for:** Shirley, adventuring around the Pacific Northwest with the world as a classroom
 
 ---
 
@@ -133,7 +133,7 @@ Copy any of these into your Sunday planning session. Each is written for a Reel 
 35. "Every parent asks me how we afford all these field trips. I never have because they're free." (Contrarian confessional)
 36. "I brought my kids to work at Boeing today. What they noticed floored me." (Cold open)
 37. "The 4 words my daughter said after her first small-plane ride will stay with me forever." (Tease + reveal)
-38. "This is why we call it Make Life Fun and not Make School Serious." (Bold claim)
+38. "There's no school in our name. That was on purpose." (Bold claim)
 39. "If you're a working parent who thinks you can't homeschool your kids on the weekends, read this." (Direct address)
 40. "The world is our classroom. Here's what week 1 looked like." (Kickoff hook — best for a series announcement)
 
@@ -146,7 +146,7 @@ Instapdown's 2026 recommendation, adapted for you:
 - **Monday post — POV Reel.** "POV: your mom is a Boeing tool maker and today's field trip is…" Under 15 seconds. Filmed Sunday.
 - **Wednesday post — Specific Outcome Reel.** "We visited 3 airports in one day and here's what my kids remember." Numbers-heavy.
 - **Friday post — Contrarian Reel.** "Museum tours are the worst way to teach kids about aviation. Here's what we do instead."
-- **Sunday post — Facebook long-form video (your #MakeLifeFun signature).** The 3-minute adventure recap with story arc, kid narration, one lesson-per-video, and a warm outro. This is where the Bucket List Family cinematic style lives.
+- **Sunday post — Facebook long-form video (your signature format).** The 3-minute adventure recap with story arc, kid narration, one lesson-per-video, and a warm outro. This is where the Bucket List Family cinematic style lives.
 
 Rotate through the swipe file each week so you never repeat the same hook formula. Every 2–3 weeks, check Facebook Insights and Instagram Insights and double down on whichever formula your specific audience rewards.
 

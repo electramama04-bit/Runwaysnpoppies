@@ -1,12 +1,13 @@
 {
   "name": "runwaysnpoppies",
   "version": "0.1.0",
-  "description": "Runways & Poppies — free aviation homeschool materials, served from Cloudflare Workers.",
+  "description": "Runways & Poppies \u2014 free aviation homeschool materials, served from Cloudflare Workers.",
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
     "check": "npm run types && tsc --noEmit && wrangler deploy --dry-run",
-    "types": "wrangler types"
+    "types": "wrangler types",
+    "skills": "mkdir -p dist && rm -f dist/*.zip && for d in skills/*/; do [ -f \"$d/SKILL.md\" ] && (cd skills && zip -qr \"../dist/$(basename \"$d\").zip\" \"$(basename \"$d\")\"); done && ls -la dist"
   },
   "repository": {
     "type": "git",

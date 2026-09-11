@@ -34,6 +34,13 @@ any hook gets spoken on camera.
 A hook that names a kid who does not exist is the kind of thing a viewer notices once
 and never trusts again. These are not nitpicks.
 
+## Built into a skill
+
+`skills/rnp-reel-hooks/` turns the formulas and the swipe file into a working skill. It
+carries its own copies of the swipe file and the creator study so it packages and installs
+as one folder. When a hook gets added or a fact gets corrected, change it in the skill's
+`references/` first, then copy it back here.
+
 ## How this connects to the rest of the work
 
 - Field trips and their dates come from the **aviation-homeschool** skill. Every Reel

@@ -99,16 +99,13 @@ for, and it sets the shot list for the trip ahead.
 A trip week produces more than a trip week needs. Bank the surplus instead of posting it
 all at once and going quiet for three weeks.
 
-- **Bank anything usable that did not make this week's four.** Extra takes of a hook, a
-  second kid explanation, unused B-roll, a moment that did not fit the story.
-- **Label each banked item with its formula and the download it points to**, so it drops
-  into a future slot without rework.
-- **Evergreen goes to the bank first.** A post about lift, or about the hours log, works in
-  November as well as it works today. A post about a specific airshow does not.
-- **Spend the bank on no-trip weeks**, not on lazy weeks. A banked post used the week after
-  it was filmed is a wasted bank.
-- **Anything sitting in the bank past about eight weeks either posts or gets cut.** Kids
-  visibly age. Seasons change. Stale footage reads as stale.
+- **Bank anything usable that did not make this week's four**, labeled with its formula and
+  the download it points to, so it drops into a future slot without rework.
+- **Evergreen goes to the bank first.** A post about lift works in November. A post about a
+  specific airshow does not.
+- **Spend the bank on no-trip weeks**, not lazy ones. A banked post used the very next week
+  is a wasted bank.
+- **Past about eight weeks, it posts or gets cut.** Kids visibly age and stale reads stale.
 
 Target: enter every trip week with three to five banked posts. That is the buffer that
 keeps the feed alive through a six-week stretch with nothing on the calendar.
@@ -152,15 +149,12 @@ swipe file is being read lazily. Rotate deliberately.
 
 ## Reading the results, every two to three weeks
 
-Open Facebook Insights and Instagram Insights and answer **one** question: which formula
-held attention longest? Not which got the most likes. Which one **held**.
+Open Insights and answer **one** question: which formula held attention longest? Not which
+got the most likes. Which one **held**. Lean into the winner for a few weeks, keep the
+rotation running underneath, and write the answer on the planning sheet so the next session
+starts from evidence.
 
-- Lean into the winner for a few weeks.
-- Keep the rotation running underneath so you do not narrow to a single trick.
-- Write the answer on the planning sheet so the next session starts from evidence.
-
-Likes are a vanity number. Retention is the number that decides whether the next post gets
-shown to anyone.
+Likes are a vanity number. Retention decides whether the next post gets shown to anyone.
 
 ## Definition of done for a week
 
@@ -172,16 +166,23 @@ shown to anyone.
 - [ ] Every post built from footage already in hand
 - [ ] Next week's shot list handed to rnp-film-day if a trip is coming
 
-## Open, needs Mama
+## Publishing
 
-- **Publishing path.** The VFW posts run through Airtable, n8n, and Blotato with hardcoded
-  page IDs. Runways n Poppies needs its own Blotato account ID and Facebook page ID before
-  **vfw-969-social-pipeline** can publish for this brand. Ask, do not guess.
-- **Which platforms are live.** Facebook is confirmed. Instagram, TikTok, and YouTube
-  handles need confirming before a post is written for them.
-- **Calendar reconciliation.** The trip list in aviation-homeschool runs April 2026 to
-  March 2027. The site's catalog labels 5th grade as starting September 8, 2026. If a
-  planning question turns on which frame is current, ask rather than pick.
+All four platforms are live. **Blotato is not usable until 30 days after signup, so every
+post is posted by hand until then** — which means all four captions get written during the
+Sunday session, finished and ready to paste, not "I'll write it that morning."
+
+Full detail, and the handoff to **vfw-969-social-pipeline** once automation is available,
+is in `references/publishing-now.md`.
+
+## The school year frame — settled
+
+**4th grade ran September 8, 2025 to July 1, 2026. 5th grade started September 8, 2026.**
+This is the frame the site uses and the correct one for anything public facing.
+
+The April 2026 to March 2027 window in **aviation-homeschool** is the themed curriculum
+year and the trip calendar. Both are real. Use grade labels in anything that goes on the
+site or in a caption, and use the themed year for planning which trip lands when.
 
 ## What NOT to do
 

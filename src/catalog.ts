@@ -28,7 +28,8 @@ export interface DocEntry {
   sizeLabel: string;
   /** Page count for printables, so people know what they're printing. */
   pages?: number;
-  grade?: Grade;
+  /** One grade, or several when a document applies across years. */
+  grade?: Grade | Grade[];
   /** Unit or theme this belongs to. */
   unit?: string;
   /** Washington's 11 required subjects, or any tag that helps someone find it. */
@@ -55,7 +56,7 @@ export const DOCUMENTS: DocEntry[] = [
     file: "hours-log-template.xlsx",
     format: "xlsx",
     sizeLabel: "31 KB",
-    grade: "5th Grade",
+    grade: ["4th Grade", "5th Grade"],
     unit: "Compliance",
     subjects: ["Occupational Education", "Compliance", "Printable"],
     updated: "2026-09-11",

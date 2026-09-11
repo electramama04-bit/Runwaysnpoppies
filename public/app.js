@@ -5,10 +5,16 @@ function esc(s) {
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
+/* A document carries one grade, several, or none. Always read it as a list. */
+function gradesOf(doc) {
+  if (!doc.grade) return [];
+  return Array.isArray(doc.grade) ? doc.grade : [doc.grade];
+}
+
 function cardHtml(doc, withTags) {
   const tags = withTags
     ? [
-        doc.grade ? `<span class="tag grade">${esc(doc.grade)}</span>` : "",
+        ...gradesOf(doc).map((g) => `<span class="tag grade">${esc(g)}</span>`),
         ...doc.subjects.map((s) => `<span class="tag">${esc(s)}</span>`),
       ].join("")
     : "";
@@ -56,7 +62,7 @@ function renderLibrary() {
     .then((r) => r.json())
     .then(({ documents }) => {
       all = documents;
-      const grades = [...new Set(all.map((d) => d.grade).filter(Boolean))];
+      const grades = [...new Set(all.flatMap(gradesOf))].sort();
       const options = ["All", ...grades];
 
       filterHost.innerHTML = options
@@ -83,7 +89,7 @@ function renderLibrary() {
     });
 
   function draw() {
-    const shown = all.filter((d) => active === "All" || d.grade === active);
+    const shown = all.filter((d) => active === "All" || gradesOf(d).includes(active));
     host.innerHTML = shown.length
       ? shown.map((d) => cardHtml(d, true)).join("")
       : '<p class="status">Nothing in this section yet.</p>';

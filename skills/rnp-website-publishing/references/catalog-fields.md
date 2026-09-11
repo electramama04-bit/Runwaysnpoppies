@@ -12,7 +12,7 @@
   format: "xlsx",
   sizeLabel: "48 KB",
   pages: 12,
-  grade: "5th Grade",
+  grade: ["4th Grade", "5th Grade"],
   unit: "Compliance",
   subjects: ["Occupational Education"],
   updated: "2026-09-11",
@@ -29,7 +29,7 @@
 | `format` | yes | One of `pdf`, `docx`, `xlsx`, `ics`, `png`, `zip`. Anything else fails typecheck |
 | `sizeLabel` | yes | Real, human-readable. `"180 KB"`, `"1.2 MB"`. Measure it |
 | `pages` | no | Page count for printables, so people know what they are printing |
-| `grade` | no | `"4th Grade"` or `"5th Grade"`. Drives the filter on `/downloads` |
+| `grade` | no | `"5th Grade"`, or an array like `["4th Grade", "5th Grade"]` for something that spans years. Drives the filter on `/downloads` |
 | `unit` | no | The unit or theme. `"Flight & Friction"`. Groups related sheets |
 | `subjects` | yes | Array. Use Washington's required subjects where they fit, plus any tag that helps someone find it |
 | `updated` | yes | `YYYY-MM-DD`. The day the file was actually last revised |
@@ -39,7 +39,19 @@
 
 ```ts
 export type Grade = "4th Grade" | "5th Grade";
+grade?: Grade | Grade[];
 ```
+
+A document that is not tied to one year — a compliance tracker, a journal page, a trip
+card — takes an **array**, and then shows up under every year it names:
+
+```ts
+grade: ["4th Grade", "5th Grade"],
+```
+
+Leaving `grade` off entirely is different: the document appears only under **All** and
+never under a year button, so it is effectively hidden from anyone filtering. Prefer an
+array over omitting it.
 
 4th grade ran September 8, 2025 to July 1, 2026. 5th grade started September 8, 2026.
 This is the frame the site uses. Adding a 6th grade means adding it to the `Grade` type

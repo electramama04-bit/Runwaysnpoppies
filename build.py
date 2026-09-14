@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Mama's #MakeLifeFun deliverables: .docx docs, .xlsx calendar, .ics schedule."""
+"""Build Mama's #RunwaysnPoppies deliverables: .docx docs, .xlsx calendar, .ics schedule."""
 import re, os, datetime
 from docx import Document
 from docx.shared import Pt, Inches, RGBColor
@@ -60,7 +60,8 @@ def md_to_docx(md_path, out_path, title):
     h = doc.add_paragraph(); h.alignment = WD_ALIGN_PARAGRAPH.CENTER
     r = h.add_run(title); r.bold = True; r.font.size = Pt(20); r.font.color.rgb = NAVY
     sub = doc.add_paragraph(); sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    r = sub.add_run("#MakeLifeFun  ·  Shirley “Mama” Hauser  ·  Tacoma, WA")
+    r = sub.add_run("#RunwaysnPoppies  ·  Shirley “Mama” Hauser  ·  Tacoma, WA\n"
+                    "The runways taught us to fly. The poppies remind us what it cost.")
     r.italic = True; r.font.size = Pt(10); r.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
 
     tbuf = []
@@ -108,43 +109,51 @@ def md_to_docx(md_path, out_path, title):
 
 # ---------- the schedule ----------
 SCHEDULE = [
-    ("2026-09-10","Week 1 — Warm","Wild Places","Satsop POV Reel","Reel, 20 sec","Script 1",
+    ("2026-09-14","Week 1 — Warm + Origin","Wild Places","Satsop POV Reel — POST TODAY","Reel, 20 sec","Script 1",
      "POV: Saturday school is a nuclear cooling tower most people have never heard of."),
-    ("2026-09-12","Week 1 — Warm","Small Wonders","RC boat vs. the ocean","Reel, 15 sec","Script 2",
+    ("2026-09-15","Week 1 — Warm + Origin","Small Wonders","RC boat vs. the ocean","Reel, 15 sec","Script 2",
      "The ocean beat our RC boat in 4 seconds. Best physics lesson we've had all year."),
-    ("2026-09-13","Week 1 — Warm","Wild Places","Ocean Shores day recap","Facebook, ~3 min","Caption A",
-     "Our classroom on Saturday was a beach."),
-    ("2026-09-16","Week 2 — Blue Tape","Origin","THE ORIGIN REEL — Blue Tape","Reel, 60 sec, face + text","Script 3 / 3-ALT",
+    ("2026-09-16","Week 1 — Warm + Origin","Origin","THE ORIGIN REEL — Blue Tape","Reel, 60 sec, face + text","Script 3 / 3-ALT",
      "My son's teacher put blue tape around his desk before he ever walked in the door."),
-    ("2026-09-16","Week 2 — Blue Tape","Origin","Blue Tape long-form — PIN THIS","Facebook, 4-5 min","Caption B",
+    ("2026-09-16","Week 1 — Warm + Origin","Origin","Blue Tape long-form — PIN THIS","Facebook, 4-5 min","Caption B",
      "They put blue tape around my son. So I built him a runway instead."),
-    ("2026-09-18","Week 2 — Blue Tape","Origin","The box and the runway","Reel, 15 sec","Script 4",
+    ("2026-09-18","Week 1 — Warm + Origin","Origin","The box and the runway","Reel, 15 sec","Script 4",
      "Same kid. One year apart."),
-    ("2026-09-20","Week 2 — Blue Tape","Small Wonders","Pizza dough physics (cool-down)","Facebook, ~2 min","Caption C",
+    ("2026-09-20","Week 1 — Warm + Origin","Wild Places","Ocean Shores day recap (cool-down)","Facebook, ~3 min","Caption A",
+     "Our classroom on Saturday was a beach."),
+    ("2026-09-23","Week 2 — The Name","Poppies","WHY IT'S CALLED RUNWAYS N POPPIES","Reel, 45 sec, face + text","Script 10",
+     "Flight and remembrance have the same birthday, and almost nobody knows it."),
+    ("2026-09-23","Week 2 — The Name","Poppies","The manifesto long-form — pin this second","Facebook, 3-4 min","Caption G",
+     "They came out of the same field."),
+    ("2026-09-25","Week 2 — The Name","Poppies","Who actually makes the Buddy Poppy","Reel, 20 sec","Script 11",
+     "You put a dollar in the can. Here's what you actually bought."),
+    ("2026-09-27","Week 2 — The Name","Small Wonders","Pizza dough physics (light)","Facebook, ~2 min","Caption C",
      "The pizza dough started flying and the science lesson started itself."),
-    ("2026-09-23","Week 3 — Finger-Guns","Cultural","THE CULTURAL REEL — Finger-Guns","Reel, 60 sec, face + text","Script 5 / 5-ALT",
-     "They brought a terrorism screener into a meeting about my 9-year-old."),
-    ("2026-09-23","Week 3 — Finger-Guns","Cultural","Kids used to be able to play like boys","Facebook, 4-5 min","Caption D",
+    ("2026-09-30","Week 3 — Finger-Guns","Cultural","THE CULTURAL REEL — Finger-Guns","Reel, 60 sec, face + text","Script 5 / 5-ALT",
+     "They brought a threat assessment specialist into a meeting about my 9-year-old."),
+    ("2026-09-30","Week 3 — Finger-Guns","Cultural","Kids used to be able to play like boys","Facebook, 4-5 min","Caption D",
      "When did play become a threat?"),
-    ("2026-09-25","Week 3 — Finger-Guns","Cultural","Stop treating imagination like a threat","Reel, 15 sec","Script 6",
+    ("2026-10-02","Week 3 — Finger-Guns","Cultural","Stop treating imagination like a threat","Reel, 15 sec","Script 6",
      "Stop treating imagination like a threat."),
-    ("2026-09-27","Week 3 — Finger-Guns","Wild Places","Satsop long-form (cool-down)","Facebook, ~3 min","Caption E",
+    ("2026-10-04","Week 3 — Finger-Guns","Wild Places","Satsop long-form (cool-down)","Facebook, ~3 min","Caption E",
      "Two 481-foot towers 90 minutes from Tacoma that never cooled anything."),
-    ("2026-09-30","Week 4 — Deliver","Runways & Wings","He distracted a Boeing engineer","Reel, 20 sec","Script 7",
+    ("2026-10-07","Week 4 — Deliver","Runways","He distracted a Boeing engineer","Reel, 20 sec","Script 7",
      "He was labeled a distraction. Today he distracted a Boeing engineer with a good question."),
-    ("2026-10-02","Week 4 — Deliver","Origin","3 things his old school took away","Reel, 30 sec","Script 8",
+    ("2026-10-09","Week 4 — Deliver","Origin","3 things his old school took away","Reel, 30 sec","Script 8",
      "3 things his old school took away that homeschool gave back in a week."),
-    ("2026-10-04","Week 4 — Deliver","Recap","One month of #MakeLifeFun","Facebook, ~3 min","Caption F",
+    ("2026-10-11","Week 4 — Deliver","Recap","One month of Runways n Poppies","Facebook, ~3 min","Caption F",
      "Where should we take school next?"),
-    ("2026-10-05","Bonus (optional)","Small Wonders","The chocolate story","Reel, 20 sec","Script 9",
+    ("2026-10-12","Bonus (optional)","Small Wonders","The chocolate story","Reel, 20 sec","Script 9",
      "I told his school no chocolate. They gave him chocolate. Then punished him for having energy."),
 ]
 FILM_DAYS = [
     ("2026-09-15", "FILM: Blue Tape reel (both versions)",
      "Film tonight so you have a full night before it posts. One honest tear, once, at 0:22 — then hard cut to Noah. Film Script 3 first; if it doesn't feel right in the morning, post 3-ALT. Show Noah both. He gets a veto."),
-    ("2026-09-22", "FILM: Finger-Guns / Ohio reel (both versions)",
-     "Calm, not angry. Read Caption D out loud first — if any sentence sounds like a fight, cut it. Verify the exact job title on the school's paperwork before you say it. Have Reply 4 open before you post."),
+    ("2026-09-29", "FILM: Finger-Guns / Ohio reel (both versions)",
+     "Calm, not angry. Read Caption D out loud first — if any sentence sounds like a fight, cut it. The title is 'threat assessment specialist' — word for word, never paraphrased. Have Reply 4 open before you post."),
 ]
+
+ANCHOR = lambda p: p.startswith(("THE ", "WHY IT'S"))
 
 def build_xlsx():
     wb = Workbook(); ws = wb.active; ws.title = "30-Day Calendar"
@@ -156,16 +165,16 @@ def build_xlsx():
         c.font = Font(bold=True, color="FFFFFF", size=11); c.fill = fill
         c.alignment = Alignment(horizontal="center", vertical="center"); c.border = bd
     heavy = PatternFill("solid", fgColor="FCE4E4")
-    warm  = PatternFill("solid", fgColor="EAF3EA")
+    warm  = PatternFill("solid", fgColor="FBF3DF")
     for d, wk, bucket, post, fmt, script, hook in SCHEDULE:
         dt = datetime.date.fromisoformat(d)
         ws.append([dt.strftime("%b %-d, %Y"), dt.strftime("%A"), wk, bucket, post, fmt, script, hook, "Not posted", ""])
         row = ws[ws.max_row]
         for c in row:
             c.border = bd; c.alignment = Alignment(vertical="top", wrap_text=True)
-            if post.startswith("THE "): c.fill = heavy
-            elif wk.startswith("Week 1"): c.fill = warm
-        row[4].font = Font(bold=post.startswith("THE "))
+            if ANCHOR(post): c.fill = heavy
+            elif bucket == "Poppies": c.fill = warm
+        row[4].font = Font(bold=ANCHOR(post))
     for col, w in zip("ABCDEFGHIJ", [15,11,22,17,38,26,17,52,13,28]):
         ws.column_dimensions[col].width = w
     ws.freeze_panes = "A2"
@@ -184,7 +193,7 @@ def build_xlsx():
     for col, w in zip("ABCD", [15,11,42,86]):
         ws2.column_dimensions[col].width = w
 
-    p = os.path.join(DIST, "MakeLifeFun-30-Day-Calendar.xlsx"); wb.save(p)
+    p = os.path.join(DIST, "RunwaysnPoppies-30-Day-Calendar.xlsx"); wb.save(p)
     print("  xlsx:", os.path.basename(p))
 
 VTZ = """BEGIN:VTIMEZONE
@@ -221,8 +230,8 @@ def fold(line):
 
 def build_ics():
     stamp = datetime.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-    L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//MakeLifeFun//30-Day Plan//EN",
-         "CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:#MakeLifeFun — 30-Day Plan",
+    L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//RunwaysnPoppies//30-Day Plan//EN",
+         "CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:#RunwaysnPoppies — 30-Day Plan",
          "X-WR-TIMEZONE:America/Los_Angeles"] + VTZ.split("\n")
     n = 0
     def ev(date, hhmm, dur_min, summary, desc):
@@ -246,21 +255,21 @@ def build_ics():
         ev(d, "1800", 90, what, note)
     ev("2026-09-15","1930",20,"Show Noah both Blue Tape versions",
        "He gets a veto. No reason required from him, no negotiating from you.")
-    ev("2026-09-22","1930",20,"Show Noah both Finger-Guns versions",
+    ev("2026-09-29","1930",20,"Show Noah both Finger-Guns versions",
        "He gets a veto. His face appears in the redemption half only.")
     L.append("END:VCALENDAR")
-    p = os.path.join(DIST, "MakeLifeFun-30-Day-Plan.ics")
+    p = os.path.join(DIST, "RunwaysnPoppies-30-Day-Plan.ics")
     out = "\r\n".join(fold(x) if len(x.encode()) > 75 else x for x in L) + "\r\n"
     open(p, "w", newline="", encoding="utf-8").write(out)
     print("  ics: ", os.path.basename(p))
 
 if __name__ == "__main__":
-    print("Building #MakeLifeFun deliverables...")
+    print("Building #RunwaysnPoppies deliverables...")
     for src, out, title in [
-        ("30-day-plan.md","MakeLifeFun-30-Day-Plan.docx","The Locked 30-Day Plan"),
-        ("reel-scripts.md","MakeLifeFun-Reel-Scripts.docx","Reel Scripts — All 9 + Fallbacks"),
-        ("facebook-captions.md","MakeLifeFun-Facebook-Captions.docx","Facebook Long-Form Captions"),
-        ("comment-replies.md","MakeLifeFun-Comment-Reply-Bank.docx","Comment Reply Bank"),
+        ("30-day-plan.md","RunwaysnPoppies-30-Day-Plan.docx","The Locked 30-Day Plan"),
+        ("reel-scripts.md","RunwaysnPoppies-Reel-Scripts.docx","Reel Scripts — All 9 + Fallbacks"),
+        ("facebook-captions.md","RunwaysnPoppies-Facebook-Captions.docx","Facebook Long-Form Captions"),
+        ("comment-replies.md","RunwaysnPoppies-Comment-Reply-Bank.docx","Comment Reply Bank"),
     ]:
         md_to_docx(os.path.join(PLAN, src), os.path.join(DIST, out), title)
     build_xlsx(); build_ics()

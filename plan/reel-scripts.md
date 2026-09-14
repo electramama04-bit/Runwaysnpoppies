@@ -1,4 +1,4 @@
-# #MakeLifeFun — Reel Scripts
+# #RunwaysnPoppies — Reel Scripts
 Word for word. Timestamps assume you talk at a normal pace — don't rush to hit them.
 **Bold = say it out loud. [BRACKETS] = what's on screen. `BOXED` = text overlay.**
 
@@ -12,12 +12,11 @@ Word for word. Timestamps assume you talk at a normal pace — don't rush to hit
 | 0:00–0:03 | Wide shot, both towers, Noah tiny at the base<br>`POV: Saturday school is a nuclear cooling tower most people have never heard of.` | **"This is Satsop, Washington."** |
 | 0:03–0:09 | Slow tilt up the inside of the tower<br>`481 feet tall. Never used. Not once.` | **"They started building two nuclear reactors here in 1977. They ran out of money and walked away. These towers have never cooled anything."** |
 | 0:09–0:15 | Noah looking straight up, hand on the concrete<br>`Almost two 747s, stacked nose to tail.` | **"I build 777 fixtures at Boeing, so this is how I think about it — that's almost two 747s stacked nose to tail. Inside. Empty."** |
-| 0:15–0:20 | Noah running out into the light<br>`#MakeLifeFun — the world is our classroom.` | **"An hour and a half from Tacoma. Free. Go find it."** |
+| 0:15–0:20 | Noah running out into the light<br>`#RunwaysnPoppies — the world is our classroom.` | **"An hour and a half from Tacoma. Free. Go find it."** |
 
 **Hook type:** curiosity + local secret. Highest-performing opener you have this week.
-**⚠️ Verify before posting:** tower height (481 ft), construction start year (1977), and
-that public access / the business park is still open to visitors. Call Satsop Business
-Park first. If a number doesn't check out, cut it — the reel works without it.
+**✅ Numbers confirmed:** 481 ft, construction started 1977. Still call Satsop Business Park
+to confirm public access before you drive out — that's the only open item on this one.
 
 ---
 
@@ -42,15 +41,6 @@ Park first. If a number doesn't check out, cut it — the reel works without it.
 badge if you have it on you. Sit down — don't stand, you'll rock.
 **The rule: one honest tear, once, and it happens at 0:22. Then you cut. Do not wipe it.**
 
-> ### ⚠️ AGE CHECK — do this before you film
-> Noah is nine now. If the blue tape happened **last** school year, he was **eight** when
-> it happened, and the script below is wrong in three places.
-> **His age is the single most-quoted number in this reel.** Get it right and it lands;
-> get it wrong and the first commenter who does the math takes the whole post apart.
-> If he was eight, change "nine" → "eight" at 0:07–0:12 and at 0:22–0:26 below, and in
-> Caption B (three times).
-> Same check applies to "fourth-grade" — use the grade he was actually in.
-
 | Time | On screen | You say |
 |---|---|---|
 | 0:00–0:07 | YOU, face to camera, dead still<br>`My son's teacher put blue tape around his desk before he ever walked in the door.` | **"My son's fourth-grade teacher put blue tape around his desk before he ever walked in the door on the first day of school."** |
@@ -60,7 +50,7 @@ badge if you have it on you. Sit down — don't stand, you'll rock.
 | 0:26–0:30 | **HARD CUT** — Noah at the fence at Paine Field, a plane rolling behind him | **"So I pulled him out."** |
 | 0:30–0:47 | B-roll over your voice: Boeing plaza, your hands, Noah on the beach, the kite | **"I'm a toolmaker at Boeing. I build the jigs and fixtures that hold a 777 together while it's being built. And I can tell you exactly what happens when a fixture is built wrong — the part comes out wrong. Every single time. And it is never the part's fault."** |
 | 0:47–0:54 | Noah running, Ocean Shores<br>`They built him a box. I built him a runway.` | **"They built him a box. I built him a runway."** |
-| 0:54–1:00 | Back to you, or Noah looking at the lens<br>`#MakeLifeFun` | **"He never needed less energy. He needed more room."** |
+| 0:54–1:00 | Back to you, or Noah looking at the lens<br>`#RunwaysnPoppies` | **"He never needed less energy. He needed more room."** |
 
 **Why this works:** the fixture line is the shareable one. "It is never the part's fault"
 is a whole parenting philosophy in six words, and only you can say it, because you actually
@@ -88,7 +78,7 @@ runway."** Those two carry the reel on mute.
 | 9 | And it is never the part's fault. | 5 sec |
 | 10 | They built him a box. I built him a runway. | 5 sec |
 | 11 | He never needed less energy. He needed more room. | 5 sec |
-| 12 | #MakeLifeFun — the world is our classroom. | 3 sec |
+| 12 | #RunwaysnPoppies — the world is our classroom. | 3 sec |
 
 ---
 
@@ -100,7 +90,7 @@ runway."** Those two carry the reel on mute.
 |---|---|---|
 | 0:00–0:04 | Split screen or hard cut: a plain empty desk (stock/your own table) → Noah at the airfield fence<br>`Same kid. One year apart.` | *(no voiceover — let the music carry it)* |
 | 0:04–0:10 | Noah: kite, beach, cockpit, tower, whatever you have<br>`Last year: a taped box on the floor.` → `This year: the whole state.` | **"Same kid. One year apart."** |
-| 0:10–0:15 | Noah looking at the lens, grinning<br>`#MakeLifeFun` | **"Nothing about him changed. We just changed the room."** |
+| 0:10–0:15 | Noah looking at the lens, grinning<br>`#RunwaysnPoppies` | **"Nothing about him changed. We just changed the room."** |
 
 ---
 
@@ -115,7 +105,7 @@ from a nine-year-old in trouble. Say it the way you'd say it to a coworker on se
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:08 | YOU, face to camera<br>`They brought a terrorism screener into a meeting about my 9-year-old.` | **"They brought a terrorism screener into a meeting about my nine-year-old. Because he pointed his fingers at his friend on the playground and said 'pew.'"** |
+| 0:00–0:08 | YOU, face to camera<br>`They brought a threat assessment specialist into a meeting about my 9-year-old.` | **"They brought a threat assessment specialist into a meeting about my nine-year-old. Because he pointed his fingers at his friend on the playground and said 'pew.'"** |
 | 0:08–0:14 | Hold | **"That's it. That's the whole incident. That's what was on the paperwork."** |
 | 0:14–0:26 | You, warmer now — this is the Ohio part, let it sound like home | **"I grew up in Ohio. We learned to shoot about a day after we learned to walk. There were gun racks in the trucks in the high school parking lot and not one person blinked."** |
 | 0:26–0:34 | You, steady. **This is the fairness beat. Do not cut it.** | **"I'm not going to sit here and tell you that world was perfect, because it wasn't. I'm telling you we still knew the difference between a boy playing and a boy in trouble. Somewhere we lost that, and now every kid gets treated like the second one."** |
@@ -123,10 +113,10 @@ from a nine-year-old in trouble. Say it the way you'd say it to a coworker on se
 | 0:40–0:52 | B-roll continues: Noah at Satsop, at the beach, at the airfield | **"Today those hands built a paper airplane, wrote in a nature journal, and drove a remote control boat into the Pacific Ocean until the Pacific Ocean won. Nobody had to take anything away from him. Somebody just gave him something to do."** |
 | 0:52–1:00 | Back to you<br>`When did play become a threat?` | **"When did play become a threat? I'd really like to know."** |
 
-**⚠️ Before you post this:** use the exact job title that was printed on the school's
-paperwork. If it said "threat assessment specialist," say that. If it said something else,
-say that. If this post travels, that one word is the thing people will try to catch you on,
-and accuracy is your whole shield. Pull the document out and read it.
+**✅ Title confirmed: "threat assessment specialist."** That is what goes in the hook, word
+for word, and it is the one phrase in this reel you never paraphrase. If the post travels,
+that title is what people will try to catch you on — and it will hold, because it's what
+the paperwork says.
 
 **Who this is for:** dads, grandpas, veterans, the VFW community, and every mother of a boy
 who has had this exact meeting. It will travel further than Blue Tape.
@@ -137,7 +127,7 @@ who has had this exact meeting. It will travel further than Blue Tape.
 
 | Card | Text on screen | Hold |
 |---|---|---|
-| 1 | They brought a terrorism screener into a meeting about my 9-year-old. | 5 sec |
+| 1 | They brought a threat assessment specialist into a meeting about my 9-year-old. | 5 sec |
 | 2 | He pointed his fingers at a friend on the playground and said "pew." | 5 sec |
 | 3 | That's it. That's the whole incident. | 4 sec |
 | 4 | I grew up in Ohio. We learned to shoot a day after we learned to walk. | 5 sec |
@@ -147,7 +137,7 @@ who has had this exact meeting. It will travel further than Blue Tape.
 | 8 | Today they built a paper airplane and a nature journal entry. | 5 sec |
 | 9 | Nobody took anything away from him. Somebody gave him something to do. | 5 sec |
 | 10 | When did play become a threat? | 5 sec |
-| 11 | #MakeLifeFun | 3 sec |
+| 11 | #RunwaysnPoppies | 3 sec |
 
 ---
 
@@ -158,7 +148,7 @@ who has had this exact meeting. It will travel further than Blue Tape.
 |---|---|---|
 | 0:00–0:04 | You, tight frame<br>`Stop treating imagination like a threat.` | **"Stop treating a nine-year-old's imagination like a threat."** |
 | 0:04–0:11 | You | **"A boy who pretends is not a boy who's planning. He's a boy who's nine. Those are different, and adults used to know that."** |
-| 0:11–0:15 | You<br>`#MakeLifeFun` | **"Give him a runway. Watch what happens."** |
+| 0:11–0:15 | You<br>`#RunwaysnPoppies` | **"Give him a runway. Watch what happens."** |
 
 ---
 
@@ -187,7 +177,7 @@ is the post where credibility compounds.
 | 0:05–0:12 | Noah outside, running<br>`1. Recess.` | **"One. Recess. Not fifteen minutes. The whole outdoors, most of the day."** |
 | 0:12–0:20 | Noah at Satsop / with the journal<br>`2. Curiosity.` | **"Two. Curiosity. He's allowed to ask why, and I'm allowed to stop the lesson and go find out."** |
 | 0:20–0:27 | Noah looking at the lens<br>`3. Dignity.` | **"Three. Dignity. Nobody puts tape on the floor around him."** |
-| 0:27–0:30 | `#MakeLifeFun` | **"One week. That's all it took."** |
+| 0:27–0:30 | `#RunwaysnPoppies` | **"One week. That's all it took."** |
 
 ---
 
@@ -198,8 +188,55 @@ is the post where credibility compounds.
 |---|---|---|
 | 0:00–0:05 | You, half-laughing<br>`I told his school: no chocolate.` | **"I told his school, in writing, no chocolate. It winds him up. Every kid's mother knows her own kid."** |
 | 0:05–0:13 | You | **"They gave him chocolate. Then they wrote him up for having too much energy."** |
-| 0:13–0:20 | You, shrug<br>`#MakeLifeFun` | **"I'm not even mad. I just want somebody to appreciate the engineering of that."** |
+| 0:13–0:20 | You, shrug<br>`#RunwaysnPoppies` | **"I'm not even mad. I just want somebody to appreciate the engineering of that."** |
 
 **Why this one travels:** it's funny, it's short, it requires zero emotional labor from
 you, and it makes the same argument as Blue Tape without asking anyone to cry. Post it
 if Week 4 feels heavy.
+
+---
+
+# SCRIPT 10 — WHY IT'S CALLED RUNWAYS N POPPIES
+**Wed, Sep 23 · 45 sec · Poppies · THE MANIFESTO · Face to camera**
+
+**This is the post that tells people what they've followed.** No tears, no conflict — just
+you, sure of something. Film it the same night as anything else; it costs you nothing
+emotionally and it's the most quotable thing on the channel.
+
+| Time | On screen | You say |
+|---|---|---|
+| 0:00–0:06 | YOU, face to camera<br>`Why it's called Runways n Poppies.` | **"People keep asking why the channel's called Runways n Poppies, like it's two different things I happened to like. It isn't."** |
+| 0:06–0:19 | A Buddy Poppy in your hand, close<br>`1915. Flanders.` | **"In 1915 a Canadian military doctor named John McCrae stood in a field in Belgium, after the second battle of Ypres, and wrote a poem about poppies growing over the graves. Everybody's heard it."** |
+| 0:19–0:31 | Aviation B-roll — your own footage, Museum of Flight, anything with wings<br>`Same ground. Same year.` | **"Here's the part nobody tells you. That same year, on that same torn-up ground, they were cutting grass strips out of the fields and flying canvas airplanes off of them."** |
+| 0:31–0:40 | Slow push on the poppy, or Noah at the airfield fence<br>`Flight and remembrance have the same birthday.` | **"The poppies and the runways came out of the same mud. Flight and remembrance have the same birthday, and almost nobody knows it."** |
+| 0:40–0:45 | You<br>`#RunwaysnPoppies` | **"So that's what we do here. We go look at the wings. And we don't forget what they cost."** |
+
+**Why this is the most important post in the plan after Blue Tape:** it converts a cute name
+into a thesis. It tells new followers they're in the right place. And it puts on the record,
+before Week 3, that you are a VFW Auxiliary Chaplain — which is the standing that makes the
+Finger-Guns post survivable.
+
+**⚠️ Confirm before you film — and you have better sourcing than anyone:** McCrae's rank and
+the exact date of the poem (May 1915, after Second Ypres), and the aviation detail. Run it
+past VFW National or your own Post records. **Do not say "the first military airfields"** —
+aviation was in use before 1915 and someone will correct you in the comments. "They were
+flying off grass strips cut from the same ground" is true and safe.
+
+---
+
+# SCRIPT 11 — WHO ACTUALLY MAKES THE BUDDY POPPY
+**Fri, Sep 25 · 20 sec · Poppies · Face to camera**
+
+| Time | On screen | You say |
+|---|---|---|
+| 0:00–0:05 | The poppy in your hand<br>`You put a dollar in the can. Here's what you bought.` | **"Somebody handed you a little red paper flower outside a grocery store and you put a dollar in the can. Here's what you actually bought."** |
+| 0:05–0:13 | Close on the poppy, turning it over | **"The VFW's Buddy Poppy doesn't come off a machine. Every single one is assembled by a disabled or hospitalized veteran — and they're paid for the work."** |
+| 0:13–0:20 | You<br>`#RunwaysnPoppies` | **"I'm the Auxiliary Chaplain at Post 969. Next time, take two."** |
+
+**Why it works:** it's a fact almost nobody knows, it takes twenty seconds, and it makes the
+viewer feel like an insider instead of a donor. This is your highest-share-per-second post.
+
+**⚠️ Confirm the specifics through VFW National before posting** — how the poppies are
+assembled and exactly where the money goes. You'll know this cold, but say it in the
+organization's own words, because this is the one post where you're speaking as an officer
+and not just as a mom.

@@ -1,4 +1,4 @@
-# #MakeLifeFun — Facebook Captions
+# #RunwaysnPoppies — Facebook Captions
 Facebook shows about two lines before "See more." The first two lines are the whole
 job. Everything after them is for people who already decided to stay.
 
@@ -35,16 +35,13 @@ to be willing to stop and go find it. That's the entire method.
 The world is our classroom, and Saturday it was 45 degrees and soaking wet and the best
 school day we've had all year.
 
-#MakeLifeFun
+#RunwaysnPoppies
 
 ---
 
 # CAPTION B — BLUE TAPE (the anchor — PIN THIS TO YOUR PAGE)
 **Wed, Sep 16 · 4–5 min read**
 **Post this the same hour the Reel goes up. Noah reads it first. He gets a veto.**
-**⚠️ AGE CHECK: this caption says "nine" three times and "fourth-grade" twice. If the tape
-happened last school year he was eight. Fix every instance before you post — that number
-is what people will quote, and it's what they'll check.**
 
 > They put blue tape around my son. So I built him a runway instead.
 
@@ -122,7 +119,7 @@ get plenty wrong. Follow along if it helps. Bring your own kid.
 
 **The world is our classroom — especially the parts with wings, waves, and weird landmarks.**
 
-#MakeLifeFun
+#RunwaysnPoppies
 
 ---
 
@@ -148,7 +145,7 @@ zero dollars and one bag of flour on the floor.
 If you want one homeschool tip from me this week, here it is: **when your kid figures
 something out on his own, do not explain it back to him.** Just say "huh — show me again."
 
-#MakeLifeFun
+#RunwaysnPoppies
 
 ---
 
@@ -157,7 +154,7 @@ something out on his own, do not explain it back to him.** Just say "huh — sho
 **Calm, not angry. Read it out loud before you post it. If any sentence sounds like a**
 **fight, cut it.**
 
-> They brought a terrorism screener into a meeting about my nine-year-old, because he
+> They brought a threat assessment specialist into a meeting about my nine-year-old, because he
 > pointed his fingers at his friend and said "pew."
 
 That's the whole incident. He was on the playground. He made a finger-gun. His friend made
@@ -214,7 +211,7 @@ than the people who love him?**
 If you had this same meeting, I'd like to hear about it. I think there are more of us than
 anybody's counted.
 
-#MakeLifeFun
+#RunwaysnPoppies
 
 ---
 
@@ -246,11 +243,11 @@ it for a week.
 
 *(Check current access before you drive out — call ahead.)*
 
-#MakeLifeFun
+#RunwaysnPoppies
 
 ---
 
-# CAPTION F — One month of #MakeLifeFun
+# CAPTION F — One month of #RunwaysnPoppies
 **Sun, Oct 4 · ~3 min · Montage recap**
 
 > One month ago I started posting about pulling my son out of school. Here's where his
@@ -276,4 +273,65 @@ Museum of Flight, Paine Field, and I'm working on something I can't announce yet
 **So tell me — where should we take school next?** Weird landmarks, wild places, or wings.
 I'll take the one with the most comments.
 
-#MakeLifeFun
+#RunwaysnPoppies
+
+---
+
+# CAPTION G — Why it's called Runways n Poppies
+**Wed, Sep 23 · 3–4 min · THE MANIFESTO**
+**Post the same hour as Script 10. Pin it second, under Blue Tape.**
+
+> People keep asking why the channel is called Runways n Poppies, like it's two different
+> things I happened to like. It isn't. They came out of the same field.
+
+In the spring of 1915, a Canadian military doctor named John McCrae was at the second battle
+of Ypres, in Belgium. He had just buried a friend. He looked out at ground that had been
+shelled and churned and turned over, and he saw that it had gone red with poppies — because
+poppies are one of the few things that come up in dirt that's been torn apart.
+
+He wrote a poem about it and everyone has heard it since.
+
+Here's the part that almost nobody tells you.
+
+**That same year, on that same torn-up ground, men were cutting grass strips out of the
+fields and flying canvas airplanes off of them.** Flight and remembrance were happening about
+a mile apart, in the same mud, in the same war, at the same time. They have the same birthday.
+
+---
+
+I build the jigs and fixtures that hold a 777 together at Boeing. I'm also the Chaplain for
+VFW Auxiliary 969 in Orting. For years I thought of those as two separate jobs — the one with
+the wings and the one with the grief.
+
+They are not separate. They never were.
+
+Every airplane I have ever put my hands on exists because of what came out of those fields.
+And every poppy I have ever pinned on somebody exists because of the same thing. The machines
+and the mourning grew together.
+
+So when I take my son out to the fence at the airfield and we watch a 737 roll past twenty
+feet away — that's the runway. And when I sit with a widow in Orting who lost her husband
+sixty years after he came home from a war he never talked about — that's the poppy.
+
+**My son is going to grow up knowing both halves.** That's the whole point of this.
+
+---
+
+So here's what this page is.
+
+**Runways.** Aviation, mostly, because it's my trade and it's his favorite. Museum of Flight,
+Paine Field, Boeing, paper airplanes on the kitchen table that get re-trimmed four times.
+
+**Poppies.** The people who served, the ones who didn't come home, and the ones still here
+who nobody asks about anymore.
+
+**Wild places.** Beaches, abandoned cooling towers, kites, hikes. Nature is a better teacher
+than I am and it doesn't need a lesson plan.
+
+**Small wonders.** Pizza dough. Physics you can do with your hands in your own kitchen.
+
+**The runways taught us to fly. The poppies remind us what it cost.**
+
+That's the whole channel. Glad you're here.
+
+#RunwaysnPoppies

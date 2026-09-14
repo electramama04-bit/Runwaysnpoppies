@@ -9,7 +9,7 @@ Word for word. Timestamps assume you talk at a normal pace — don't rush to hit
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:03 | Wide shot, both towers, Noah tiny at the base<br>`POV: Saturday school is a nuclear cooling tower most people have never heard of.` | **"This is Satsop, Washington."** |
+| 0:00–0:03 | Wide shot, both towers, Noah tiny at the base<br>`481 feet tall. Never used. Not once.` | **"Four hundred and eighty-one feet tall. Never used. Not once."** |
 | 0:03–0:09 | Slow tilt up the inside of the tower<br>`481 feet tall. Never used. Not once.` | **"They started building two nuclear reactors here in 1977. They ran out of money and walked away. These towers have never cooled anything."** |
 | 0:09–0:15 | Noah looking straight up, hand on the concrete<br>`Almost two 747s, stacked nose to tail.` | **"I build 777 fixtures at Boeing, so this is how I think about it — that's almost two 747s stacked nose to tail. Inside. Empty."** |
 | 0:15–0:20 | Noah running out into the light<br>`#RunwaysnPoppies — the world is our classroom.` | **"An hour and a half from Tacoma. Free. Go find it."** |
@@ -43,7 +43,7 @@ badge if you have it on you. Sit down — don't stand, you'll rock.
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:07 | YOU, face to camera, dead still<br>`My son's teacher put blue tape around his desk before he ever walked in the door.` | **"My son's fourth-grade teacher put blue tape around his desk before he ever walked in the door on the first day of school."** |
+| 0:00–0:07 | YOU, face to camera, dead still<br>`Blue tape. My son's teacher put it around his desk before he ever walked in the door.` | **HOOK B (recommended):** **"Blue tape. My son's fourth-grade teacher put blue tape on the floor around his desk before he ever walked in the door on the first day of school."**<br><br>**HOOK A (original):** **"My son's fourth-grade teacher put blue tape around his desk before he ever walked in the door on the first day of school."** |
 | 0:07–0:12 | Hold. Let it sit. | *(beat — two full seconds of nothing)*<br>**"He was nine years old. He hadn't done anything yet."** |
 | 0:12–0:22 | You, still<br>`The tape was a box. He had to keep his whole body inside it.` | **"The tape made a box. His chair, his feet, his hands, his body — all of it had to stay inside the box. That was the plan they made for him before they ever met him. I asked what he'd done. They told me he had a lot of energy."** |
 | 0:22–0:26 | You. **This is where the tear is allowed.** Don't touch your face. | **"He was nine."** |
@@ -105,7 +105,7 @@ from a nine-year-old in trouble. Say it the way you'd say it to a coworker on se
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:08 | YOU, face to camera<br>`They brought a threat assessment specialist into a meeting about my 9-year-old.` | **"They brought a threat assessment specialist into a meeting about my nine-year-old. Because he pointed his fingers at his friend on the playground and said 'pew.'"** |
+| 0:00–0:08 | YOU, face to camera<br>`Threat assessment specialist.`<br>`That's who the school brought in because my 9-year-old said "pew."` | **HOOK B (recommended):** **"Threat assessment specialist. That's the person the school brought into a meeting about my nine-year-old, because he pointed his fingers at a friend on the playground and said 'pew.'"**<br><br>**HOOK A (original):** **"They brought a threat assessment specialist into a meeting about my nine-year-old. Because he pointed his fingers at his friend on the playground and said 'pew.'"** |
 | 0:08–0:14 | Hold | **"That's it. That's the whole incident. That's what was on the paperwork."** |
 | 0:14–0:26 | You, warmer now — this is the Ohio part, let it sound like home | **"I grew up in Ohio. We learned to shoot about a day after we learned to walk. There were gun racks in the trucks in the high school parking lot and not one person blinked."** |
 | 0:26–0:34 | You, steady. **This is the fairness beat. Do not cut it.** | **"I'm not going to sit here and tell you that world was perfect, because it wasn't. I'm telling you we still knew the difference between a boy playing and a boy in trouble. Somewhere we lost that, and now every kid gets treated like the second one."** |
@@ -158,7 +158,7 @@ who has had this exact meeting. It will travel further than Blue Tape.
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:05 | Noah talking to someone at the Museum of Flight / Future of Flight<br>`He was labeled "a distraction."` | **"Last year his file said he was a distraction."** |
+| 0:00–0:05 | Noah talking to someone at the Museum of Flight / Future of Flight<br>`His file said "distraction."` | **"His file said 'distraction.'"** |
 | 0:05–0:14 | Same scene, the adult leaning in to answer him | **"Today he distracted an engineer for eleven minutes with a question about why the wingtips bend up."** |
 | 0:14–0:20 | Noah walking off, satisfied<br>`Same kid. Different room.` | **"Same kid. Different room."** |
 
@@ -186,7 +186,7 @@ is the post where credibility compounds.
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:05 | You, half-laughing<br>`I told his school: no chocolate.` | **"I told his school, in writing, no chocolate. It winds him up. Every kid's mother knows her own kid."** |
+| 0:00–0:05 | You, half-laughing<br>`No chocolate. I put it in writing.` | **"No chocolate. I put it in writing, because it winds him up, and every kid's mother knows her own kid."** |
 | 0:05–0:13 | You | **"They gave him chocolate. Then they wrote him up for having too much energy."** |
 | 0:13–0:20 | You, shrug<br>`#RunwaysnPoppies` | **"I'm not even mad. I just want somebody to appreciate the engineering of that."** |
 
@@ -205,7 +205,7 @@ emotionally and it's the most quotable thing on the channel.
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:06 | YOU, face to camera<br>`Why it's called Runways n Poppies.` | **"People keep asking why the channel's called Runways n Poppies, like it's two different things I happened to like. It isn't."** |
+| 0:00–0:06 | YOU, face to camera<br>`Flight and remembrance have the same birthday.` | **"Flight and remembrance have the same birthday. Almost nobody knows it, and it's the reason this channel is called what it's called."** |
 | 0:06–0:19 | A Buddy Poppy in your hand, close<br>`1915. Flanders.` | **"In 1915 a Canadian military doctor named John McCrae stood in a field in Belgium, after the second battle of Ypres, and wrote a poem about poppies growing over the graves. Everybody's heard it."** |
 | 0:19–0:31 | Aviation B-roll — your own footage, Museum of Flight, anything with wings<br>`Same ground. Same year.` | **"Here's the part nobody tells you. That same year, on that same torn-up ground, they were cutting grass strips out of the fields and flying canvas airplanes off of them."** |
 | 0:31–0:40 | Slow push on the poppy, or Noah at the airfield fence<br>`Flight and remembrance have the same birthday.` | **"The poppies and the runways came out of the same mud. Flight and remembrance have the same birthday, and almost nobody knows it."** |
@@ -229,7 +229,7 @@ flying off grass strips cut from the same ground" is true and safe.
 
 | Time | On screen | You say |
 |---|---|---|
-| 0:00–0:05 | The poppy in your hand<br>`You put a dollar in the can. Here's what you bought.` | **"Somebody handed you a little red paper flower outside a grocery store and you put a dollar in the can. Here's what you actually bought."** |
+| 0:00–0:05 | The poppy in your hand<br>`A disabled veteran made this by hand.` | **"A disabled veteran assembled that little red paper flower by hand, and got paid for the work. That's what your dollar bought."** |
 | 0:05–0:13 | Close on the poppy, turning it over | **"The VFW's Buddy Poppy doesn't come off a machine. Every single one is assembled by a disabled or hospitalized veteran — and they're paid for the work."** |
 | 0:13–0:20 | You<br>`#RunwaysnPoppies` | **"I'm the Auxiliary Chaplain at Post 969. Next time, take two."** |
 

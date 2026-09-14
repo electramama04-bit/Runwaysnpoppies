@@ -114,6 +114,8 @@ Your kid is not broken.
 
 And you are allowed to leave.
 
+Everything we do is at **runwaysnpoppies.com**.
+
 I'll be sharing where we go, what we learn, what it costs, and what I get wrong, because I
 get plenty wrong. Follow along if it helps. Bring your own kid.
 
@@ -309,6 +311,10 @@ Every airplane I have ever put my hands on exists because of what came out of th
 And every poppy I have ever pinned on somebody exists because of the same thing. The machines
 and the mourning grew together.
 
+My dad is a veteran. That isn't a credential I pull out to win an argument — it's just the
+house I grew up in. And now I serve veterans and their families as Chaplain for Auxiliary
+969, which mostly means I show up after somebody's worst day has already happened.
+
 So when I take my son out to the fence at the airfield and we watch a 737 roll past twenty
 feet away — that's the runway. And when I sit with a widow in Orting who lost her husband
 sixty years after he came home from a war he never talked about — that's the poppy.
@@ -332,6 +338,6 @@ than I am and it doesn't need a lesson plan.
 
 **The runways taught us to fly. The poppies remind us what it cost.**
 
-That's the whole channel. Glad you're here.
+That's the whole channel. Everything lives at **runwaysnpoppies.com**. Glad you're here.
 
 #RunwaysnPoppies

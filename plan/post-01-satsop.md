@@ -68,19 +68,32 @@ runwaysnpoppies.com
 
 ---
 
-## To publish, I need one thing from you
+## How to post it — by hand, from your phone
 
-**A publicly reachable URL for the finished video.** Blotato will not take a direct upload —
-your own pipeline notes say presigned-URL uploads via curl are blocked, and that's still true.
+**No Blotato. No scheduling tool. No automation.** A brand-new page pushing posts through a
+third-party API is the pattern Meta's automated enforcement looks for, and a flagged page gets
+shut down before it has any history to defend itself with. Everything below is manual until
+these pages have real posting history behind them.
 
-Any of these work:
-- Google Drive share link set to **"Anyone with the link"**
-- A file already uploaded to the runwaysnpoppies.com site
-- Any image/video host
+1. **Cut the video** in CapCut or Instagram's own editor. Vertical 9:16, 20 seconds.
+2. **Add the four text cards** from the shot list above. Top third of the frame, above where
+   the caption bar sits. Break a long line across two lines rather than shrinking the type.
+3. **Instagram → @runwaysnpoppies → + → Reel.** Upload it.
+4. **Pick the cover frame:** the wide shot of both towers with Noah small at the base. That
+   frame is doing the work in the grid long after the reel stops circulating.
+5. **Paste the caption** from above.
+6. **Post it.**
 
-Send me that URL and I'll publish it to @runwaysnpoppies as a Reel in one step.
+### Instagram is the only place this can go today
 
----
+@runwaysnpoppies exists on Instagram. **There is no Runways n Poppies Facebook page yet** —
+and every Facebook long-form in the plan, including the pinned Blue Tape anchor on Wednesday,
+needs one.
+
+**Creating that page is tonight's job.** It takes about ten minutes: Facebook → Pages → Create.
+Name it Runways n Poppies, use the tagline as the bio, point it at runwaysnpoppies.com. Post
+something small and ordinary to it before Wednesday — a brand-new page whose very first post is
+a 5-minute personal essay looks stranger to Facebook's systems than one with a little history.
 
 ## Still open on this post
 

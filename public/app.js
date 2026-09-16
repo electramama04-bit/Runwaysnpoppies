@@ -11,9 +11,18 @@ function gradesOf(doc) {
   return Array.isArray(doc.grade) ? doc.grade : [doc.grade];
 }
 
+/* Files published after the newsletter opened are delivered by subscribing.
+   Everything else downloads straight off the site with nothing asked for. */
+function isGated(doc) {
+  return doc.access === "newsletter";
+}
+
+let NEWSLETTER_URL = "";
+
 function cardHtml(doc, withTags) {
   const tags = withTags
     ? [
+        isGated(doc) ? `<span class="tag gated">Newsletter</span>` : "",
         ...gradesOf(doc).map((g) => `<span class="tag grade">${esc(g)}</span>`),
         ...doc.subjects.map((s) => `<span class="tag">${esc(s)}</span>`),
       ].join("")
@@ -29,7 +38,13 @@ function cardHtml(doc, withTags) {
       <p>${esc(doc.description)}</p>
       ${withTags ? `<div class="tags">${tags}</div>` : ""}
       <p class="meta">${meta}</p>
-      <a class="btn" href="/download/${encodeURIComponent(doc.id)}">Download</a>
+      ${
+        isGated(doc)
+          ? `<a class="btn btn-quiet" href="${esc(NEWSLETTER_URL || "#")}"${
+              NEWSLETTER_URL ? ' rel="noopener noreferrer" target="_blank"' : ""
+            }>Get it by email</a>`
+          : `<a class="btn" href="/download/${encodeURIComponent(doc.id)}">Download</a>`
+      }
     </article>`;
 }
 
@@ -39,7 +54,8 @@ function renderFeatured() {
   const host = document.getElementById("featured");
   fetch("/api/documents")
     .then((r) => r.json())
-    .then(({ documents }) => {
+    .then(({ documents, newsletterUrl }) => {
+      NEWSLETTER_URL = newsletterUrl || "";
       const featured = documents.filter((d) => d.featured);
       host.innerHTML = featured.length
         ? featured.map((d) => cardHtml(d, false)).join("")
@@ -60,7 +76,8 @@ function renderLibrary() {
 
   fetch("/api/documents")
     .then((r) => r.json())
-    .then(({ documents }) => {
+    .then(({ documents, newsletterUrl }) => {
+      NEWSLETTER_URL = newsletterUrl || "";
       all = documents;
       const grades = [...new Set(all.flatMap(gradesOf))].sort();
       const options = ["All", ...grades];

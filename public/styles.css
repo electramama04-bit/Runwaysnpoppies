@@ -211,6 +211,7 @@ section h2 {
   color: var(--navy);
 }
 .tag.grade { background: var(--navy); color: var(--cream); }
+.tag.gated { background: var(--gold); color: var(--navy); }
 
 .meta {
   font-size: 0.79rem;

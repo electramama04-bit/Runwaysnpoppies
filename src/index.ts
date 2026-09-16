@@ -1,4 +1,4 @@
-import { DOCUMENTS, LINKS, type DocEntry, type Format } from "./catalog";
+import { DOCUMENTS, LINKS, NEWSLETTER_URL, type DocEntry, type Format } from "./catalog";
 
 /** Explicit content types — don't rely on the asset server guessing .ics or .docx. */
 const CONTENT_TYPES: Record<Format, string> = {
@@ -50,6 +50,15 @@ async function handleDownload(id: string, request: Request, env: Env): Promise<R
     return json({ error: "No document with that id.", id }, 404);
   }
 
+  // Newsletter files are delivered by subscribing, so the direct URL must not
+  // hand them out. Without this the gate would only exist in the front-end.
+  if (doc.access === "newsletter") {
+    return json(
+      { error: "This one is sent to newsletter subscribers.", id: doc.id },
+      403,
+    );
+  }
+
   // Pull the file out of the static asset bundle.
   const assetUrl = new URL(`/files/${doc.file}`, request.url);
   const asset = await env.ASSETS.fetch(new Request(assetUrl, { method: "GET" }));
@@ -92,7 +101,7 @@ export default {
 
     try {
       if (pathname === "/api/documents") {
-        return json({ documents: DOCUMENTS });
+        return json({ documents: DOCUMENTS, newsletterUrl: NEWSLETTER_URL });
       }
 
       if (pathname === "/api/links") {

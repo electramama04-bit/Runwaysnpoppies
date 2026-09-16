@@ -128,10 +128,24 @@ people to nothing is the most expensive kind of post there is.
 
 ### CTA bank
 
+Two kinds of CTA now, and a post uses one or the other, never both.
+
+**To the free library.** For the three originals, which stay free forever.
+
 - "The lab sheet we used is free at runwaysnpoppies.com."
-- "The flight test report the boys filled out is on the site. No email, no signup."
-- "Comment PLANE and I'll send you the trip card for this one."
+- "The flight test report the boys filled out is on the site."
 - "The whole Flight and Friction unit is free on the site."
+
+**To the newsletter.** For anything published after the list opened. The comment
+word starts a conversation, and the reply carries the link.
+
+- "Comment RUNWAY and I'll send it to you."
+- "Comment RUNWAY and it's yours."
+- "This one goes out to the newsletter. Comment RUNWAY and I'll add you."
+
+Stop writing "no email, no signup" as a blanket line. It is still true of the
+three free files and it is fine to say about those specifically. As a promise
+about everything it stopped being true when the list opened.
 
 Never "come learn with us" or "let's explore." Both are on the do-not-use list in
 **rnp-reel-hooks** — they read as classroom marketing and get skipped.

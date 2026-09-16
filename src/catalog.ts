@@ -36,9 +36,19 @@ export interface DocEntry {
   subjects: string[];
   /** ISO date (YYYY-MM-DD) this file was last revised. */
   updated: string;
+  /**
+   * How someone gets this file.
+   * "free" (the default) downloads straight off the site, no email.
+   * "newsletter" is delivered by subscribing, for files published after the
+   * list opened. The three originals stay free forever.
+   */
+  access?: "free" | "newsletter";
   /** Featured entries appear on the home page. */
   featured?: boolean;
 }
+
+/** Where a newsletter-gated file is delivered. Empty until Substack is live. */
+export const NEWSLETTER_URL = "";
 
 export interface LinkEntry {
   title: string;

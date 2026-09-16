@@ -184,9 +184,22 @@ runwaysnpoppies.com
 
 ---
 
-## Open item
+## Published
 
-The Boeing tenure number is listed as **unconfirmed** in
-`skills/rnp-reel-hooks/SKILL.md`, so no caption here states a number of years.
-The website copy and Master Plan v6 both say fifteen years. Confirm it once and
-it can go into future captions.
+Live at https://www.youtube.com/shorts/GQlF6THp8RA
+
+The site's hero button points here.
+
+## Boeing tenure, settled
+
+**16 years**, confirmed 2026-09-16 and recorded in
+`skills/rnp-reel-hooks/SKILL.md`. Earlier drafts of the website copy and
+Master Plan v6 said fifteen, which was wrong. Future captions may state the
+number freely.
+
+The captions above do not name a number, so they did not need changing. The
+line is available if a future caption wants it:
+
+```
+I have spent 16 years making the parts that keep aircraft in the air.
+```

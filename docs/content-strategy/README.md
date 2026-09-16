@@ -28,7 +28,7 @@ any hook gets spoken on camera.
 |-----------------|-----------|---------|
 | "my daughter," "let her be the star" | Ethan is 14, Noah is 9. Two sons, no daughter. | Hooks 11, 26, 28, 37; the kid-fronted action item |
 | "my 10-year-old" | Noah is 9 through the 2026-2027 school year | Hooks 20, 33 |
-| "15 years at Boeing" | Confirm actual tenure before saying it on camera | Hook 22 |
+| "15 years at Boeing" | Wrong. Tenure is **16 years**, confirmed 2026-09-16. | Hook 22 |
 | The pre-launch working name | Retired. The brand is Runways n Poppies. Removed everywhere, including from the archived original | Hook 38, rewritten. Every caption's hashtag field |
 
 A hook that names a kid who does not exist is the kind of thing a viewer notices once

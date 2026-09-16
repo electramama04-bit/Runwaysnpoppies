@@ -1,5 +1,11 @@
 # First Substack post
 
+**Published 2026-09-16:**
+https://runwaysnpoppies.substack.com/p/they-put-blue-tape-around-my-son
+
+Publication root, which is the subscribe target the site points at:
+https://runwaysnpoppies.substack.com
+
 Written to the standing voice rules: no em dashes, no emojis, short
 sentences, first person, ends pointing at the free library.
 

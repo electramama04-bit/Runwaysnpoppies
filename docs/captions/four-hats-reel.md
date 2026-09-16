@@ -186,9 +186,15 @@ runwaysnpoppies.com
 
 ## Published
 
-Live at https://www.youtube.com/shorts/GQlF6THp8RA
+| Platform | Status | Date |
+|---|---|---|
+| YouTube | Live: https://www.youtube.com/shorts/GQlF6THp8RA | 2026-09-16 |
+| Facebook | Posted | 2026-09-16 |
+| Instagram | Posted | 2026-09-16 |
+| TikTok | Not yet | |
+| Pinterest | Not yet | |
 
-The site's hero button points here.
+The site's hero button points at the YouTube Short.
 
 ## Boeing tenure, settled
 

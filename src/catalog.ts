@@ -48,7 +48,7 @@ export interface DocEntry {
 }
 
 /** Where a newsletter-gated file is delivered. Empty until Substack is live. */
-export const NEWSLETTER_URL = "";
+export const NEWSLETTER_URL = "https://substack.com/@runwaysnpoppies";
 
 export interface LinkEntry {
   title: string;
